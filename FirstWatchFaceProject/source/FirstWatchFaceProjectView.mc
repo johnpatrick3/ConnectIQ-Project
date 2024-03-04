@@ -1,5 +1,7 @@
 import Toybox.Application;
 import Toybox.Graphics;
+import Toybox.ActivityMonitor;
+import Toybox.Activity;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
@@ -8,7 +10,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
-        
+        var hasHr = (ActivityMonitor has :getHeartRateHistory);   
     }
 
     // Load your resources here
@@ -44,6 +46,27 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
+
+        // collecting HR
+        var view_hr = View.findDrawableById("HeartRate") as Text;
+        //if(!hasHr) {return;}
+        var hr = "--";
+        var newHr=Activity.getActivityInfo().currentHeartRate;
+        if(newHr==null) {
+            var hrh=ActivityMonitor.getHeartRateHistory(1,true);
+            if(hrh!=null) {
+                var hrs=hrh.next();
+                if(hrs!=null && hrs.heartRate!=null && hrs.heartRate!=ActivityMonitor.INVALID_HR_SAMPLE) {
+                    newHr=hrs.heartRate;
+                }
+            }
+        }
+        if(newHr != null) {
+            hr=newHr;
+        }
+
+        view_hr.setText(hr.toString());
+
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

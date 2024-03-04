@@ -15,9 +15,6 @@ class Background extends WatchUi.Drawable{
     static
     <init> {
     }
-    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectBackground.mc"; @line = 7; @position = 16; ]
-    private
-    var myImage;
     [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectBackground.mc"; @line = 9; ]
     function initialize() as Void {
 C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectBackground_mc_9_26_16_4_start:
@@ -35,27 +32,10 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.9 = getv function %tmp.8 :initialize;
         %tmp.11 = lgetv %dictionary.1;
         invoke %tmp.8 %tmp.9(%tmp.11);
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectBackground.mc" 15 8 ]
-        %tmp.12 = getm $.Toybox.Application;
-        %tmp.13 = getv function %tmp.12 :loadResource;
-        %tmp.15 = getv ? :Rez;
-        %tmp.16 = getv %tmp.15 :Drawables;
-        %tmp.17 = getv %tmp.16 :BackgroundIcon;
-        %tmp.18 = invoke %tmp.12 %tmp.13(%tmp.17);
-        putv self :myImage %tmp.18;
 C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectBackground_mc_9_26_16_4_stop:
     }
     [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectBackground.mc"; @line = 18; ]
     function draw(dc as Dc) as Void {
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectBackground_mc_18_36_23_4_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectBackground.mc" 22 8 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :drawBitmap;
-        %tmp.3 = 0;
-        %tmp.4 = 0;
-        %tmp.6 = getv ? :myImage;
-        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.6);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectBackground_mc_18_36_23_4_stop:
     }
 }
 [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectBackground.mc"; @line = 1; ]

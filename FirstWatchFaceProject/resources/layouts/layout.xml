@@ -1,5 +1,5 @@
 <layout id="WatchFace">
-    <bitmap id="WaveImage" x="center" y="center" filename="C:/Users/johnp/OneDrive/Documents/First Garmin Project/FirstWatchFaceProject/resources/drawables/ocean-waves.jpg" />
+    <bitmap id="WaveImage" x="center" y="center" filename="C:/Users/johnp/OneDrive/Documents/First Garmin Project/FirstWatchFaceProject/resources/drawables/ocean-waves.jpg" compress="true" packingFormat="jpg" />
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="SubText" text="Johnny" x="center" y="80%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
+    <label id="HeartRate" x="center" y="80%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
 </layout>
