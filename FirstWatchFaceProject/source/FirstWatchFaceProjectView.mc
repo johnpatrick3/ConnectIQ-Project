@@ -8,6 +8,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
+        
     }
 
     // Load your resources here
@@ -43,9 +44,12 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
-
+        
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        //dc.drawBitmap(0,0,myImage);
+        
+
     }
 
     // Called when this View is removed from the screen. Save the

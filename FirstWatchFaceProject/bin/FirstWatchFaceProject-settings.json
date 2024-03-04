@@ -2,7 +2,7 @@
   "settings" : [ {
     "key" : "BackgroundColor",
     "valueType" : "number",
-    "defaultValue" : 0,
+    "defaultValue" : 22000,
     "configTitle" : "BackgroundColorTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -29,7 +29,7 @@
   }, {
     "key" : "ForegroundColor",
     "valueType" : "number",
-    "defaultValue" : 16711680,
+    "defaultValue" : 16449536,
     "configTitle" : "ForegroundColorTitle",
     "configPrompt" : null,
     "configType" : "list",
