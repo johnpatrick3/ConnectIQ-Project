@@ -1,5 +1,16 @@
 <layout id="WatchFace">
+    <!--background image-->
     <bitmap id="WaveImage" x="center" y="center" filename="C:/Users/johnp/OneDrive/Documents/First Garmin Project/FirstWatchFaceProject/resources/drawables/ocean-waves.jpg" compress="true" packingFormat="jpg" />
-    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    
+    <!--Top 3 Data Points-->
+
+    <!--Hour and Minute Value-->
+    <label id="HourLabel" x="center" y="20%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="MinLabel" x="center" y="40%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+
+    <!--Bottom 3 Data Points-->
+    <label id="HeartRateIcon" x="40%" y="80%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
     <label id="HeartRate" x="center" y="80%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
+    <label id="BodyBatteryIcon" x="80%" y="80%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
+    <label id="BodyBattery" x="80%" y="80%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_ORANGE" />
 </layout>
