@@ -17,6 +17,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
+        font = WatchUI.loadResource(Rez.Fonts.superfun);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -31,6 +32,8 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         setTime();
         setHR();
         setBodyBattery();
+        setTemperature();
+        setBattery();
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -107,7 +110,41 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         );
         
         var bodyBatteryLabel = View.findDrawableById("BodyBattery") as Text;
-        bodyBatteryLabel.setText(bodyBatteryComplication.value.toString());
+        var bodyBatteryValue = "--";
+        if (bodyBatteryComplication.value != null) {
+            bodyBatteryValue = bodyBatteryComplication.value.toString();
+        }
+        bodyBatteryLabel.setText(bodyBatteryValue);
+    
+    }
+
+    hidden function setTemperature() {
+
+        var temperatureComplication = Complications.getComplication(
+           new Id(Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE)
+        );
+        
+        var tempLabel = View.findDrawableById("TempLabel") as Text;
+        var tempValue = "--";
+        if (temperatureComplication.value != null) {
+            tempValue = (((temperatureComplication.value) * (9/5)) + 32).toString();
+        }
+        tempLabel.setText(tempValue);
+
+    }
+
+     hidden function setBattery() {
+
+        var batteryComplication = Complications.getComplication(
+           new Id(Complications.COMPLICATION_TYPE_BATTERY)
+        );
+        
+        var batteryLabel = View.findDrawableById("BatteryLabel") as Text;
+        var batteryValue = "--";
+        if (batteryComplication.value != null) {
+            batteryValue = batteryComplication.value.toString();
+        }
+        batteryLabel.setText(batteryValue + "%");
 
     }
 
