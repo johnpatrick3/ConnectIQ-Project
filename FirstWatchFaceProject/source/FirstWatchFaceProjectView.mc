@@ -7,6 +7,8 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Complications;
 
+var font;
+
 class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
     function initialize() {
@@ -17,7 +19,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
-        font = WatchUI.loadResource(Rez.Fonts.superfun);
+        font = WatchUi.loadResource(Rez.Fonts.superfun);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -29,7 +31,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Get the current time and format it correctly
-        setTime();
+        
         setHR();
         setBodyBattery();
         setTemperature();
@@ -37,7 +39,8 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        //dc.drawBitmap(0,0,myImage);
+        setTime(dc);
+        
         
 
     }
@@ -56,7 +59,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     function onEnterSleep() as Void {
     }
 
-    hidden function setTime() {
+    hidden function setTime(dc) {
         
         //var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -67,19 +70,20 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
                 hours = hours - 12;
             }
         } else {
-            if (getApp().getProperty("UseMilitaryFormat")) {
+            if (System.getDeviceSettings().is24Hour) {
                 //timeFormat = "$1$$2$";
                 hours = hours.format("%02d");
             }
         }
         var hourString = hours.format("%02d");
         var minString = minutes.format("%02d");
-        var hourLabel = View.findDrawableById("HourLabel") as Text;
-        var minuteLabel = View.findDrawableById("MinLabel") as Text;
-        hourLabel.setText(hourString);
-        minuteLabel.setText(minString);
-        //View.setColor(getApp().getProperty("ForegroundColor") as Number) as Number; 
+        //var hourLabel = View.findDrawableById("HourLabel") as Text;
+        //var minuteLabel = View.findDrawableById("MinLabel") as Text;
+        //hourLabel.setText(hourString);
+        //minuteLabel.setText(minString);
 
+        dc.drawText(130,190,font, hourString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(340,190,font, minString, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     hidden function setHR() {
