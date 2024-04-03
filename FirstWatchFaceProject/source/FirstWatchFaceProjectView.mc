@@ -7,7 +7,8 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Complications;
 
-var font;
+var font_hour;
+var font_min;
 
 class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
@@ -19,7 +20,8 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
-        font = WatchUi.loadResource(Rez.Fonts.superfun);
+        font_min = WatchUi.loadResource(Rez.Fonts.superfun);
+        font_hour = WatchUi.loadResource(Rez.Fonts.superfun_bigger);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -36,10 +38,10 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         setBodyBattery();
         setTemperature();
         setBattery();
-        
+        setTime();
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        setTime(dc);
+        
         
         
 
@@ -59,7 +61,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     function onEnterSleep() as Void {
     }
 
-    hidden function setTime(dc) {
+    hidden function setTime() {
         
         //var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -77,13 +79,13 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         }
         var hourString = hours.format("%02d");
         var minString = minutes.format("%02d");
-        //var hourLabel = View.findDrawableById("HourLabel") as Text;
-        //var minuteLabel = View.findDrawableById("MinLabel") as Text;
-        //hourLabel.setText(hourString);
-        //minuteLabel.setText(minString);
-
-        dc.drawText(130,190,font, hourString, Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(340,190,font, minString, Graphics.TEXT_JUSTIFY_CENTER);
+        var hourLabel = View.findDrawableById("HourLabel") as Text;
+        var minuteLabel = View.findDrawableById("MinLabel") as Text;
+        hourLabel.setText(hourString);
+        minuteLabel.setText(minString);
+        //dc.setColor(Graphics.COLOR_BLACK);
+        //dc.drawText((dc.getWidth() / 2) - 70,(dc.getHeight() / 2) - 80,font_hour, hourString, Graphics.TEXT_JUSTIFY_CENTER);
+        //dc.drawText((dc.getWidth() / 2) + 70,(dc.getHeight() / 2) - 65,font_min, minString, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     hidden function setHR() {
