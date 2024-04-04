@@ -39,9 +39,11 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         setTemperature();
         setBattery();
         setTime();
+        setDate();
+
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        
+        drawLines(dc);
         
         
 
@@ -150,8 +152,31 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         if (batteryComplication.value != null) {
             batteryValue = batteryComplication.value.toString();
         }
-        batteryLabel.setText(batteryValue + "%");
+        batteryLabel.setText(batteryValue);
 
+    }
+
+    hidden function setDate() {
+
+        var dateComplication = Complications.getComplication(
+            new Id(Complications.COMPLICATION_TYPE_DATE)
+        );
+        
+        var dateLabel = View.findDrawableById("Date") as Text;
+        var dateValue = "--";
+        if (dateComplication.value != null) {
+            dateValue = dateComplication.value.toString();
+        }
+        dateLabel.setText(dateValue);
+    }
+
+    hidden function drawLines(dc) {
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
+        dc.setPenWidth(3);
+        dc.drawCircle((0.28 * dc.getWidth()),(0.218 * dc.getHeight()),40);
+        dc.drawCircle((0.28 * dc.getWidth()),(0.815 * dc.getHeight()),40);
+        dc.drawCircle((0.72 * dc.getWidth()),(0.218 * dc.getHeight()),40);
+        dc.drawCircle((0.72 * dc.getWidth()),(0.815 * dc.getHeight()),40);
     }
 
 
