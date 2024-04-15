@@ -9,6 +9,7 @@ import Toybox.Complications;
 
 var font_hour;
 var font_min;
+var battery_symbols;
 
 class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
@@ -22,6 +23,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         setLayout(Rez.Layouts.WatchFace(dc));
         font_min = WatchUi.loadResource(Rez.Fonts.superfun);
         font_hour = WatchUi.loadResource(Rez.Fonts.superfun_bigger);
+        battery_symbols = WatchUi.loadResource(Rez.Fonts.battery);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -153,6 +155,20 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
             batteryValue = batteryComplication.value.toString();
         }
         batteryLabel.setText(batteryValue);
+        var batteryIcon = View.findDrawableById("BatteryIcon") as Text;
+        
+        if ((batteryComplication.value > 75) or (batteryComplication.value == null)) {
+            batteryIcon.setText("e83f");
+        }
+        else if (batteryComplication.value > 50) {
+            batteryIcon.setText("26");
+        }
+        else if (batteryComplication.value > 25) {
+            batteryIcon.setText("24");
+        }
+        else if (batteryComplication.value > 0) {
+            batteryIcon.setText("22");
+        }
 
     }
 

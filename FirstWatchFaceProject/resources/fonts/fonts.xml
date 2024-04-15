@@ -3,4 +3,6 @@
     <font id="superfun_bigger" filename="superfuntime_bigger.fnt" antialias="true" filter="0123456789" />
     <font id="superfun_small" filename="superfuntime_small.fnt" antialias="true" />
     <font id="superfun_medium" filename="superfuntime_medium.fnt" antialias="true" filter="0123456789" />
+    <font id="heart_bodybatt" filename="heart_bodybatt_icons.fnt" antialias="true" />
+    <font id="battery" filename="battery_icons.fnt" antialias="true"/>
 </fonts>

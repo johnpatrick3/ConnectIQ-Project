@@ -15,11 +15,14 @@ module Rez {
         (:initialized) var superfun_bigger as ResourceId;
         (:initialized) var superfun_small as ResourceId;
         (:initialized) var superfun_medium as ResourceId;
+        (:initialized) var heart_bodybatt as ResourceId;
+        (:initialized) var battery as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var local_Rez_Fonts_superfun_small = (WatchUi.loadResource($.Rez.Fonts.superfun_small) as Graphics.FontReference);
+            var local_Rez_Fonts_battery = (WatchUi.loadResource($.Rez.Fonts.battery) as Graphics.FontReference);
             var local_Rez_Fonts_superfun_bigger = (WatchUi.loadResource($.Rez.Fonts.superfun_bigger) as Graphics.FontReference);
             var local_Rez_Fonts_superfun = (WatchUi.loadResource($.Rez.Fonts.superfun) as Graphics.FontReference);
             var local_Rez_Fonts_superfun_medium = (WatchUi.loadResource($.Rez.Fonts.superfun_medium) as Graphics.FontReference);
@@ -28,7 +31,9 @@ module Rez {
 
             var rez_cmp_local_text_TempLabel = new WatchUi.Text({:identifier=>"TempLabel", :color=>Graphics.COLOR_WHITE, :locX=>(454 * (28 / 100.0)), :locY=>(454 * (15 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_superfun_medium});
 
-            var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_WHITE, :locX=>(454 * (72 / 100.0)), :locY=>(454 * (15 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_superfun_medium});
+            var rez_cmp_local_text_BatteryLabel = new WatchUi.Text({:identifier=>"BatteryLabel", :color=>Graphics.COLOR_WHITE, :locX=>(454 * (72 / 100.0)), :locY=>(454 * (15 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_superfun_small});
+
+            var rez_cmp_local_text_BatteryIcon = new WatchUi.Text({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_WHITE, :locX=>(454 * (72 / 100.0)), :locY=>(454 * (20 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_battery});
 
             var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :color=>Graphics.COLOR_WHITE, :locX=>(454 * (35 / 100.0)), :locY=>((454 - 200) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_superfun_bigger});
 
@@ -40,7 +45,7 @@ module Rez {
 
             var rez_cmp_local_text_BodyBattery = new WatchUi.Text({:identifier=>"BodyBattery", :color=>Graphics.COLOR_WHITE, :locX=>(454 * (72 / 100.0)), :locY=>(454 * (75 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>local_Rez_Fonts_superfun_medium});
 
-            return [rez_cmp_local_bitmap_WaveImage, rez_cmp_local_text_TempLabel, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_HourLabel, rez_cmp_local_text_MinLabel, rez_cmp_local_text_Date, rez_cmp_local_text_HeartRate, rez_cmp_local_text_BodyBattery] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_WaveImage, rez_cmp_local_text_TempLabel, rez_cmp_local_text_BatteryLabel, rez_cmp_local_text_BatteryIcon, rez_cmp_local_text_HourLabel, rez_cmp_local_text_MinLabel, rez_cmp_local_text_Date, rez_cmp_local_text_HeartRate, rez_cmp_local_text_BodyBattery] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
