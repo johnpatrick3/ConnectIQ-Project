@@ -3,8 +3,8 @@
     <bitmap id="WaveImage" x="center" y="center" filename="C:/Users/johnp/OneDrive/Documents/First Garmin Project/FirstWatchFaceProject/resources/drawables/abstract.jpg" compress="true" packingFormat="jpg" />
     
     <!--Top 2 Data Points-->
-    <label id="TempLabel" x="28%" y="15%" font="@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
-    <label id="BatteryLabel" x="72%" y="15%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="TempLabel" x="25%" y="25%" font="@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="BatteryLabel" x="75%" y="25%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     <label id="BatteryIcon" x="72%" y="20%" font="@Fonts.battery" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
 
     <!--Hour and Minute Value-->
@@ -13,6 +13,6 @@
     <label id = "Date" x="70%" y="54%" font = "@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
     <!--Bottom 2 Data Points-->
-    <label id="HeartRate" x="28%" y="75%" font="@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
-    <label id="BodyBattery" x="72%" y="75%" font="@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="HeartRate" x="25%" y="75%" font="@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="BodyBattery" x="75%" y="75%" font="@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
 </layout>

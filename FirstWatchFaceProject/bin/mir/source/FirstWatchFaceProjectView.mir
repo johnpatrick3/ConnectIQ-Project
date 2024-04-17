@@ -491,9 +491,9 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
     [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc"; @line = 146; ]
     protected
     function setBattery() {
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_start:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_start:
 [ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 148 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_stop" ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_stop" ]
         %batteryComplication.1 = local;
         %tmp.1 = getm $.Toybox.Complications;
         %tmp.2 = getv function %tmp.1 :getComplication;
@@ -504,7 +504,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.9 = invoke %tmp.1 %tmp.2(%tmp.3);
         lputv %batteryComplication.1 %tmp.9;
 [ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 152 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_stop" ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_stop" ]
         %batteryLabel.2 = local;
         %tmp.11 = getv ? :View;
         %tmp.12 = getv function %tmp.11 :findDrawableById;
@@ -513,7 +513,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.15 = as %tmp.14 Text;
         lputv %batteryLabel.2 %tmp.15;
 [ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 153 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_stop" ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_stop" ]
         %batteryValue.3 = local;
         %tmp.16 = "--";
         lputv %batteryValue.3 %tmp.16;
@@ -541,7 +541,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.28 = lgetv %batteryValue.3;
         invoke %tmp.25 %tmp.26(%tmp.28);
 [ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 158 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_stop" ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_stop" ]
         %batteryIcon.4 = local;
         %tmp.30 = getv ? :View;
         %tmp.31 = getv function %tmp.30 :findDrawableById;
@@ -549,95 +549,106 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
         %tmp.34 = as %tmp.33 Text;
         lputv %batteryIcon.4 %tmp.34;
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 160 8 ]
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_stmt:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_12_160_82_begin:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 159 8 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_stop" ]
+        %batteryIconValue.5 = local;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 161 8 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_stmt:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_12_161_82_begin:
         %tmp.35 = lgetv %batteryComplication.1;
         %tmp.36 = getv %tmp.35 :value;
         %tmp.37 = 75;
         %tmp.38 = gt %tmp.36 %tmp.37;
-        bt %tmp.38 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_true;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_48_160_82_false:
+        bt %tmp.38 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_true;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_48_161_82_false:
         %tmp.39 = lgetv %batteryComplication.1;
         %tmp.40 = getv %tmp.39 :value;
         %tmp.41 = null;
         %tmp.42 = eq %tmp.40 %tmp.41;
         push %tmp.42;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_48_160_82_end:
-        %tmp.43 = phi [%tmp.38 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_12_160_82_begin] [%tmp.42 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_48_160_82_false] [%tmp.43 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_48_160_82_end];
-        bf %tmp.43 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_false;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_true:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_85_162_8_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 161 12 ]
-        %tmp.44 = lgetv %batteryIcon.4;
-        %tmp.45 = getv function %tmp.44 :setText;
-        %tmp.46 = "e83f";
-        invoke %tmp.44 %tmp.45(%tmp.46);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_85_162_8_stop:
-        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_false:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 163 13 ]
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_13_171_8_if_stmt:
-        %tmp.47 = lgetv %batteryComplication.1;
-        %tmp.48 = getv %tmp.47 :value;
-        %tmp.49 = 50;
-        %tmp.50 = gt %tmp.48 %tmp.49;
-        bf %tmp.50 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_13_171_8_if_false;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_13_171_8_if_true:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_49_165_8_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 164 12 ]
-        %tmp.51 = lgetv %batteryIcon.4;
-        %tmp.52 = getv function %tmp.51 :setText;
-        %tmp.53 = "26";
-        invoke %tmp.51 %tmp.52(%tmp.53);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_49_165_8_stop:
-        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_13_171_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_13_171_8_if_false:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 166 13 ]
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_13_171_8_if_stmt:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_48_161_82_end:
+        %tmp.43 = phi [%tmp.38 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_12_161_82_begin] [%tmp.42 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_48_161_82_false] [%tmp.43 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_48_161_82_end];
+        bf %tmp.43 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_false;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_85_164_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 162 12 ]
+        %tmp.44 = self;
+        %tmp.45 = getv function %tmp.44 :int;
+        %tmp.47 = getv ? :e83f;
+        %tmp.48 = invoke %tmp.44 %tmp.45(%tmp.47);
+        lputv %batteryIconValue.5 %tmp.48;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 163 12 ]
+        %tmp.49 = lgetv %batteryIcon.4;
+        %tmp.50 = getv function %tmp.49 :setText;
+        %tmp.51 = lgetv %batteryIconValue.5;
+        %tmp.52 = getv function %tmp.51 :toChar;
+        %tmp.53 = invoke %tmp.51 %tmp.52();
+        invoke %tmp.49 %tmp.50(%tmp.53);
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_85_164_8_stop:
+        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_false:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 165 13 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_13_173_8_if_stmt:
         %tmp.54 = lgetv %batteryComplication.1;
         %tmp.55 = getv %tmp.54 :value;
-        %tmp.56 = 25;
+        %tmp.56 = 50;
         %tmp.57 = gt %tmp.55 %tmp.56;
-        bf %tmp.57 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_13_171_8_if_false;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_13_171_8_if_true:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_49_168_8_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 167 12 ]
+        bf %tmp.57 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_13_173_8_if_false;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_13_173_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_49_167_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 166 12 ]
         %tmp.58 = lgetv %batteryIcon.4;
         %tmp.59 = getv function %tmp.58 :setText;
-        %tmp.60 = "24";
+        %tmp.60 = "26";
         invoke %tmp.58 %tmp.59(%tmp.60);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_49_168_8_stop:
-        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_13_171_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_13_171_8_if_false:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 169 13 ]
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_13_171_8_if_stmt:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_49_167_8_stop:
+        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_13_173_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_13_173_8_if_false:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 168 13 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_13_173_8_if_stmt:
         %tmp.61 = lgetv %batteryComplication.1;
         %tmp.62 = getv %tmp.61 :value;
-        %tmp.63 = 0;
+        %tmp.63 = 25;
         %tmp.64 = gt %tmp.62 %tmp.63;
-        bf %tmp.64 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_13_171_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_13_171_8_if_true:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_48_171_8_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 170 12 ]
+        bf %tmp.64 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_13_173_8_if_false;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_13_173_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_49_170_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 169 12 ]
         %tmp.65 = lgetv %batteryIcon.4;
         %tmp.66 = getv function %tmp.65 :setText;
-        %tmp.67 = "22";
+        %tmp.67 = "24";
         invoke %tmp.65 %tmp.66(%tmp.67);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_48_171_8_stop:
-        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_13_171_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_169_13_171_8_if_end:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_166_13_171_8_if_end:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_163_13_171_8_if_end:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_160_8_171_8_if_end:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_173_4_stop:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_49_170_8_stop:
+        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_13_173_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_13_173_8_if_false:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 171 13 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_13_173_8_if_stmt:
+        %tmp.68 = lgetv %batteryComplication.1;
+        %tmp.69 = getv %tmp.68 :value;
+        %tmp.70 = 0;
+        %tmp.71 = gt %tmp.69 %tmp.70;
+        bf %tmp.71 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_13_173_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_13_173_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_48_173_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 172 12 ]
+        %tmp.72 = lgetv %batteryIcon.4;
+        %tmp.73 = getv function %tmp.72 :setText;
+        %tmp.74 = "22";
+        invoke %tmp.72 %tmp.73(%tmp.74);
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_48_173_8_stop:
+        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_13_173_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_171_13_173_8_if_end:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_168_13_173_8_if_end:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_165_13_173_8_if_end:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_161_8_173_8_if_end:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_146_34_175_4_stop:
     }
-    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc"; @line = 175; ]
+    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc"; @line = 177; ]
     protected
     function setDate() {
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 177 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_stop" ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 179 8 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_stop" ]
         %dateComplication.1 = local;
         %tmp.1 = getm $.Toybox.Complications;
         %tmp.2 = getv function %tmp.1 :getComplication;
@@ -647,8 +658,8 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.3 = newc %tmp.6 (%tmp.8);
         %tmp.9 = invoke %tmp.1 %tmp.2(%tmp.3);
         lputv %dateComplication.1 %tmp.9;
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 181 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_stop" ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 183 8 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_stop" ]
         %dateLabel.2 = local;
         %tmp.11 = getv ? :View;
         %tmp.12 = getv function %tmp.11 :findDrawableById;
@@ -656,41 +667,41 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         %tmp.15 = as %tmp.14 Text;
         lputv %dateLabel.2 %tmp.15;
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 182 8 ]
-        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_stop" ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 184 8 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_stop" ]
         %dateValue.3 = local;
         %tmp.16 = "--";
         lputv %dateValue.3 %tmp.16;
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 183 8 ]
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_8_185_8_if_stmt:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 185 8 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_8_187_8_if_stmt:
         %tmp.17 = lgetv %dateComplication.1;
         %tmp.18 = getv %tmp.17 :value;
         %tmp.19 = null;
         %tmp.20 = ne %tmp.18 %tmp.19;
-        bf %tmp.20 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_8_185_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_8_185_8_if_true:
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_44_185_8_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 184 12 ]
+        bf %tmp.20 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_8_187_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_8_187_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_44_187_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 186 12 ]
         %tmp.21 = lgetv %dateComplication.1;
         %tmp.22 = getv %tmp.21 :value;
         %tmp.23 = getv function %tmp.22 :toString;
         %tmp.24 = invoke %tmp.22 %tmp.23();
         lputv %dateValue.3 %tmp.24;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_44_185_8_stop:
-        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_8_185_8_if_end;
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_183_8_185_8_if_end:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 186 8 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_44_187_8_stop:
+        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_8_187_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_185_8_187_8_if_end:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 188 8 ]
         %tmp.25 = lgetv %dateLabel.2;
         %tmp.26 = getv function %tmp.25 :setText;
         %tmp.28 = lgetv %dateValue.3;
         invoke %tmp.25 %tmp.26(%tmp.28);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_175_30_187_4_stop:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_177_30_189_4_stop:
     }
-    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc"; @line = 189; ]
+    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc"; @line = 191; ]
     protected
     function drawLines(dc) {
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_189_34_196_4_start:
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 190 8 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_191_34_198_4_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 192 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -698,12 +709,12 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_WHITE;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 191 8 ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 193 8 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :setPenWidth;
         %tmp.9 = 3;
         invoke %tmp.7 %tmp.8(%tmp.9);
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 192 8 ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 194 8 ]
         %tmp.10 = lgetv %dc;
         %tmp.11 = getv function %tmp.10 :drawCircle;
         %tmp.12 = 0.28;
@@ -718,7 +729,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.21 = mul %tmp.17 %tmp.20;
         %tmp.22 = 40;
         invoke %tmp.10 %tmp.11(%tmp.16, %tmp.21, %tmp.22);
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 193 8 ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 195 8 ]
         %tmp.23 = lgetv %dc;
         %tmp.24 = getv function %tmp.23 :drawCircle;
         %tmp.25 = 0.28;
@@ -733,7 +744,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.34 = mul %tmp.30 %tmp.33;
         %tmp.35 = 40;
         invoke %tmp.23 %tmp.24(%tmp.29, %tmp.34, %tmp.35);
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 194 8 ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 196 8 ]
         %tmp.36 = lgetv %dc;
         %tmp.37 = getv function %tmp.36 :drawCircle;
         %tmp.38 = 0.72;
@@ -748,7 +759,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.47 = mul %tmp.43 %tmp.46;
         %tmp.48 = 40;
         invoke %tmp.36 %tmp.37(%tmp.42, %tmp.47, %tmp.48);
-[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 195 8 ]
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc" 197 8 ]
         %tmp.49 = lgetv %dc;
         %tmp.50 = getv function %tmp.49 :drawCircle;
         %tmp.51 = 0.72;
@@ -763,7 +774,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.60 = mul %tmp.56 %tmp.59;
         %tmp.61 = 40;
         invoke %tmp.49 %tmp.50(%tmp.55, %tmp.60, %tmp.61);
-C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_189_34_196_4_stop:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectView_mc_191_34_198_4_stop:
     }
 }
 [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectView.mc"; @line = 1; ]

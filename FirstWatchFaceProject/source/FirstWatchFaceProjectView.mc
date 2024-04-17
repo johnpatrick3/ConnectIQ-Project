@@ -10,6 +10,8 @@ import Toybox.Complications;
 var font_hour;
 var font_min;
 var battery_symbols;
+var dw = 0;
+var dh = 0;
 
 class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
@@ -21,9 +23,12 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
-        font_min = WatchUi.loadResource(Rez.Fonts.superfun);
-        font_hour = WatchUi.loadResource(Rez.Fonts.superfun_bigger);
-        battery_symbols = WatchUi.loadResource(Rez.Fonts.battery);
+        //font_min = WatchUi.loadResource(Rez.Fonts.superfun);
+        //font_hour = WatchUi.loadResource(Rez.Fonts.superfun_bigger);
+        //battery_symbols = WatchUi.loadResource(Rez.Fonts.battery);
+        defineComplicationBoxes(dc);
+        dw = dc.getWidth();
+        dh = dc.getHeight();
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -45,7 +50,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        drawLines(dc);
+        drawComplicationBoxes(dc);
         
         
 
@@ -155,10 +160,12 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
             batteryValue = batteryComplication.value.toString();
         }
         batteryLabel.setText(batteryValue);
+        /*
         var batteryIcon = View.findDrawableById("BatteryIcon") as Text;
-        
+
         if ((batteryComplication.value > 75) or (batteryComplication.value == null)) {
-            batteryIcon.setText("e83f");
+
+            batteryIcon.setText();
         }
         else if (batteryComplication.value > 50) {
             batteryIcon.setText("26");
@@ -169,6 +176,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         else if (batteryComplication.value > 0) {
             batteryIcon.setText("22");
         }
+        */
 
     }
 
@@ -186,14 +194,40 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         dateLabel.setText(dateValue);
     }
 
-    hidden function drawLines(dc) {
+    hidden function drawComplicationBoxes(dc) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
         dc.setPenWidth(3);
-        dc.drawCircle((0.28 * dc.getWidth()),(0.218 * dc.getHeight()),40);
-        dc.drawCircle((0.28 * dc.getWidth()),(0.815 * dc.getHeight()),40);
-        dc.drawCircle((0.72 * dc.getWidth()),(0.218 * dc.getHeight()),40);
-        dc.drawCircle((0.72 * dc.getWidth()),(0.815 * dc.getHeight()),40);
+        for (var i=0;i < boundingBoxes.size();i++) {
+            dc.drawCircle(boundingBoxes[i]["bounds"][0],boundingBoxes[i]["bounds"][1],boundingBoxes[i]["bounds"][2]);
+        }
+        
     }
 
+    function defineComplicationBoxes(dc) {
 
+        var radius = 40;
+
+        boundingBoxes = [
+            {
+                "label" => "Temperature",
+                "bounds" => [dw/4,dh/4,radius],
+                "ComplicationId" => Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE
+            },
+            {
+                "label" => "Battery",
+                "bounds" => [dw*3/4,dh/4,radius],
+                "ComplicationId" => Complications.COMPLICATION_TYPE_BATTERY
+            },
+            {
+                "label" => "HeartRate",
+                "bounds" => [dw/4,dh*3/4,radius],
+                "ComplicationId" => Complications.COMPLICATION_TYPE_HEART_RATE
+            },
+            {
+                "label" => "BodyBattery",
+                "bounds" => [dw*3/4,dh*3/4,radius],
+                "ComplicationId" => Complications.COMPLICATION_TYPE_BODY_BATTERY
+            }
+        ];
+    }
 }
