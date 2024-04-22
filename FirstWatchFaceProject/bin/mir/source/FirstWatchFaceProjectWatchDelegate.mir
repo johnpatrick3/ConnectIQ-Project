@@ -1,0 +1,88 @@
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 2; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 3; ]
+using Toybox.System;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 4; ]
+using Toybox.Lang;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 5; ]
+using Toybox.Application;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 6; ]
+using Toybox.ActivityMonitor;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 7; ]
+using Toybox.Timer;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 8; ]
+using Toybox.Complications;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 10; ]
+class WatchDelegate extends Toybox.WatchUi.WatchFaceDelegate{
+    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 12; ]
+    function initialize() as Void {
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_12_26_14_4_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 13 8 ]
+        %tmp.2 = getv ? :WatchFaceDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_12_26_14_4_stop:
+    }
+    [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 16; ]
+    function onPress(clickEvent as WatchUi.ClickEvent) {
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_16_55_28_4_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 18 8 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_16_55_28_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_16_55_28_4_stop" ]
+        %coords.1 = local;
+        %tmp.1 = lgetv %clickEvent;
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %coords.1 %tmp.3;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 20 8 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_16_55_28_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_16_55_28_4_stop" ]
+        %complicationId.2 = local;
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :checkPressedComplication;
+        %tmp.7 = lgetv %coords.1;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        lputv %complicationId.2 %tmp.8;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 22 8 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_8_26_8_if_stmt:
+        %tmp.10 = lgetv %complicationId.2;
+        %tmp.11 = false;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_8_26_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_8_26_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_37_26_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 23 12 ]
+        [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_37_26_8_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_37_26_8_stop" ]
+        %pressedComplication.3 = local;
+        %tmp.15 = getm $.Toybox.Complications;
+        %tmp.16 = getv function ? %tmp.15 :Id;
+        %tmp.18 = lgetv %complicationId.2;
+        %tmp.13 = newc %tmp.16 (%tmp.18);
+        lputv %pressedComplication.3 %tmp.13;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 24 12 ]
+        %tmp.19 = getm $.Toybox.Complications;
+        %tmp.20 = getv function %tmp.19 :exitTo;
+        %tmp.22 = lgetv %pressedComplication.3;
+        invoke %tmp.19 %tmp.20(%tmp.22);
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 25 12 ]
+        %tmp.23 = true;
+        ret %tmp.23;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_37_26_8_stop:
+        goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_8_26_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_22_8_26_8_if_end:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc" 27 8 ]
+        %tmp.24 = false;
+        ret %tmp.24;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectWatchDelegate_mc_16_55_28_4_stop:
+    }
+}
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectWatchDelegate.mc"; @line = 1; ]
+<init> {
+}

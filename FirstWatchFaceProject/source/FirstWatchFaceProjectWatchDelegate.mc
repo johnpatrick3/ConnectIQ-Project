@@ -18,6 +18,13 @@ class WatchDelegate extends Toybox.WatchUi.WatchFaceDelegate {
         var coords = clickEvent.getCoordinates();
 
         var complicationId = checkPressedComplication(coords);
+
+        if (complicationId != false) {
+            var pressedComplication = new Complications.Id(complicationId);
+            Complications.exitTo(pressedComplication);
+            return true;
+        }
+        return false;
     }
 
 }

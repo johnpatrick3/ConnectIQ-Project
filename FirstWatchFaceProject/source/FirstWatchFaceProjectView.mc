@@ -9,26 +9,34 @@ import Toybox.Complications;
 
 var font_hour;
 var font_min;
-var battery_symbols;
 var dw = 0;
 var dh = 0;
+var heartIcon, bodyBatteryIcon, temperatureIcon, batteryStatusIcon;
 
 class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
-        //var hasHr = (ActivityMonitor has :getHeartRateHistory);   
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
-        //font_min = WatchUi.loadResource(Rez.Fonts.superfun);
-        //font_hour = WatchUi.loadResource(Rez.Fonts.superfun_bigger);
-        //battery_symbols = WatchUi.loadResource(Rez.Fonts.battery);
-        defineComplicationBoxes(dc);
         dw = dc.getWidth();
         dh = dc.getHeight();
+        
+        defineComplicationBoxes(dc);
+        heartIcon = WatchUi.loadResource(Rez.Drawables.heart);
+        bodyBatteryIcon = WatchUi.loadResource(Rez.Drawables.body);
+        temperatureIcon = WatchUi.loadResource(Rez.Drawables.temperature);
+        batteryStatusIcon = [
+            Rez.Drawables.Battery_100, 
+            Rez.Drawables.Battery_80, 
+            Rez.Drawables.Battery_60,
+            Rez.Drawables.Battery_40,
+            Rez.Drawables.Battery_20
+        ];
+        
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -164,8 +172,8 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         var batteryIcon = View.findDrawableById("BatteryIcon") as Text;
 
         if ((batteryComplication.value > 75) or (batteryComplication.value == null)) {
-
-            batteryIcon.setText();
+            
+            batteryIcon.setText("0");
         }
         else if (batteryComplication.value > 50) {
             batteryIcon.setText("26");
@@ -210,22 +218,22 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         boundingBoxes = [
             {
                 "label" => "Temperature",
-                "bounds" => [dw/4,dh/4,radius],
+                "bounds" => [dw/4,dh/4.5,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE
             },
             {
                 "label" => "Battery",
-                "bounds" => [dw*3/4,dh/4,radius],
+                "bounds" => [dw*3/4,dh/4.5,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_BATTERY
             },
             {
                 "label" => "HeartRate",
-                "bounds" => [dw/4,dh*3/4,radius],
+                "bounds" => [dw/4,dh*3/3.75,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_HEART_RATE
             },
             {
                 "label" => "BodyBattery",
-                "bounds" => [dw*3/4,dh*3/4,radius],
+                "bounds" => [dw*3/4,dh*3/3.75,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_BODY_BATTERY
             }
         ];
