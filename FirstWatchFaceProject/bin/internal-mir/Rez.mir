@@ -154,7 +154,7 @@ c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_bin_
             %tmp.78 = aputv %tmp.77 %tmp.75 %tmp.76;
             %tmp.80 = const :color;
             %tmp.81 = getm $.Toybox.Graphics;
-            %tmp.82 = getv %tmp.81 :COLOR_WHITE;
+            %tmp.82 = getv %tmp.81 :COLOR_BLACK;
             %tmp.83 = dup %tmp.78;
             %tmp.84 = aputv %tmp.83 %tmp.80 %tmp.82;
             %tmp.86 = const :locX;
@@ -196,7 +196,7 @@ c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_bin_
             %tmp.124 = aputv %tmp.123 %tmp.121 %tmp.122;
             %tmp.126 = const :color;
             %tmp.127 = getm $.Toybox.Graphics;
-            %tmp.128 = getv %tmp.127 :COLOR_WHITE;
+            %tmp.128 = getv %tmp.127 :COLOR_BLACK;
             %tmp.129 = dup %tmp.124;
             %tmp.130 = aputv %tmp.129 %tmp.126 %tmp.128;
             %tmp.132 = const :locX;
@@ -364,7 +364,7 @@ c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_bin_
             %tmp.308 = aputv %tmp.307 %tmp.305 %tmp.306;
             %tmp.310 = const :color;
             %tmp.311 = getm $.Toybox.Graphics;
-            %tmp.312 = getv %tmp.311 :COLOR_WHITE;
+            %tmp.312 = getv %tmp.311 :COLOR_BLACK;
             %tmp.313 = dup %tmp.308;
             %tmp.314 = aputv %tmp.313 %tmp.310 %tmp.312;
             %tmp.316 = const :locX;
@@ -406,7 +406,7 @@ c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_bin_
             %tmp.354 = aputv %tmp.353 %tmp.351 %tmp.352;
             %tmp.356 = const :color;
             %tmp.357 = getm $.Toybox.Graphics;
-            %tmp.358 = getv %tmp.357 :COLOR_WHITE;
+            %tmp.358 = getv %tmp.357 :COLOR_BLACK;
             %tmp.359 = dup %tmp.354;
             %tmp.360 = aputv %tmp.359 %tmp.356 %tmp.358;
             %tmp.362 = const :locX;

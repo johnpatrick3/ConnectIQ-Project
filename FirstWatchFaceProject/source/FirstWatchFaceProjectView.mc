@@ -30,11 +30,11 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         bodyBatteryIcon = WatchUi.loadResource(Rez.Drawables.body);
         temperatureIcon = WatchUi.loadResource(Rez.Drawables.temperature);
         batteryStatusIcon = [
-            Rez.Drawables.Battery_100, 
-            Rez.Drawables.Battery_80, 
-            Rez.Drawables.Battery_60,
-            Rez.Drawables.Battery_40,
-            Rez.Drawables.Battery_20
+            WatchUi.loadResource(Rez.Drawables.Battery_100), 
+            WatchUi.loadResource(Rez.Drawables.Battery_80), 
+            WatchUi.loadResource(Rez.Drawables.Battery_60),
+            WatchUi.loadResource(Rez.Drawables.Battery_40),
+            WatchUi.loadResource(Rez.Drawables.Battery_20)
         ];
         
     }
@@ -49,16 +49,16 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         // Get the current time and format it correctly
         
-        setHR();
-        setBodyBattery();
-        setTemperature();
-        setBattery();
         setTime();
         setDate();
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         drawComplicationBoxes(dc);
+        setHR(dc);
+        setBodyBattery(dc);
+        setTemperature(dc);
+        setBattery(dc);
         
         
 
@@ -105,7 +105,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         //dc.drawText((dc.getWidth() / 2) + 70,(dc.getHeight() / 2) - 65,font_min, minString, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
-    hidden function setHR() {
+    hidden function setHR(dc) {
 
         var hr = "--";
         var newHr = Activity.getActivityInfo().currentHeartRate;
@@ -124,9 +124,11 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
         var heartRateLabel = View.findDrawableById("HeartRate") as Text;
         heartRateLabel.setText(hr.toString());
+        dc.drawBitmap((boundingBoxes[2]["bounds"][0]-16), (boundingBoxes[2]["bounds"][1]-35),heartIcon);
+        
     }
 
-    hidden function setBodyBattery() {
+    hidden function setBodyBattery(dc) {
 
         var bodyBatteryComplication = Complications.getComplication(
            new Id(Complications.COMPLICATION_TYPE_BODY_BATTERY)
@@ -138,10 +140,10 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
             bodyBatteryValue = bodyBatteryComplication.value.toString();
         }
         bodyBatteryLabel.setText(bodyBatteryValue);
-    
+        dc.drawBitmap((boundingBoxes[3]["bounds"][0]-16), (boundingBoxes[3]["bounds"][1]-35),bodyBatteryIcon);
     }
 
-    hidden function setTemperature() {
+    hidden function setTemperature(dc) {
 
         var temperatureComplication = Complications.getComplication(
            new Id(Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE)
@@ -153,10 +155,10 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
             tempValue = (((temperatureComplication.value) * (9/5)) + 32).toString();
         }
         tempLabel.setText(tempValue);
-
+        dc.drawBitmap((boundingBoxes[0]["bounds"][0]-12), (boundingBoxes[0]["bounds"][1]-33),temperatureIcon);
     }
 
-     hidden function setBattery() {
+     hidden function setBattery(dc) {
 
         var batteryComplication = Complications.getComplication(
            new Id(Complications.COMPLICATION_TYPE_BATTERY)
@@ -165,26 +167,26 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         var batteryLabel = View.findDrawableById("BatteryLabel") as Text;
         var batteryValue = "--";
         if (batteryComplication.value != null) {
-            batteryValue = batteryComplication.value.toString();
+            batteryValue = batteryComplication.value.toString() + "%";
         }
         batteryLabel.setText(batteryValue);
-        /*
-        var batteryIcon = View.findDrawableById("BatteryIcon") as Text;
 
-        if ((batteryComplication.value > 75) or (batteryComplication.value == null)) {
+        if ((batteryComplication.value > 80) or (batteryComplication.value == null)) {
             
-            batteryIcon.setText("0");
+            dc.drawBitmap((boundingBoxes[1]["bounds"][0]-16), (boundingBoxes[1]["bounds"][1]-33),batteryStatusIcon[0]);
         }
-        else if (batteryComplication.value > 50) {
-            batteryIcon.setText("26");
+        else if (batteryComplication.value > 60) {
+            dc.drawBitmap((boundingBoxes[1]["bounds"][0]-12), (boundingBoxes[1]["bounds"][1]-33),batteryStatusIcon[1]);
         }
-        else if (batteryComplication.value > 25) {
-            batteryIcon.setText("24");
+        else if (batteryComplication.value > 40) {
+            dc.drawBitmap((boundingBoxes[1]["bounds"][0]-12), (boundingBoxes[1]["bounds"][1]-33),batteryStatusIcon[2]);
+        }
+        else if (batteryComplication.value > 20) {
+            dc.drawBitmap((boundingBoxes[1]["bounds"][0]-12), (boundingBoxes[1]["bounds"][1]-33),batteryStatusIcon[3]);
         }
         else if (batteryComplication.value > 0) {
-            batteryIcon.setText("22");
+            dc.drawBitmap((boundingBoxes[1]["bounds"][0]-12), (boundingBoxes[1]["bounds"][1]-33),batteryStatusIcon[4]);
         }
-        */
 
     }
 
@@ -203,7 +205,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
     }
 
     hidden function drawComplicationBoxes(dc) {
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.setPenWidth(3);
         for (var i=0;i < boundingBoxes.size();i++) {
             dc.drawCircle(boundingBoxes[i]["bounds"][0],boundingBoxes[i]["bounds"][1],boundingBoxes[i]["bounds"][2]);
