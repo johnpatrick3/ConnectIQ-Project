@@ -614,7 +614,7 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
         %tmp.42 = agetv %tmp.40 %tmp.41;
         %tmp.43 = 0;
         %tmp.44 = agetv %tmp.42 %tmp.43;
-        %tmp.45 = 12;
+        %tmp.45 = 14;
         %tmp.46 = sub %tmp.44 %tmp.45;
         %tmp.48 = getv ? :boundingBoxes;
         %tmp.49 = 0;

@@ -155,7 +155,7 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
             tempValue = (((temperatureComplication.value) * (9/5)) + 32).toString();
         }
         tempLabel.setText(tempValue);
-        dc.drawBitmap((boundingBoxes[0]["bounds"][0]-12), (boundingBoxes[0]["bounds"][1]-33),temperatureIcon);
+        dc.drawBitmap((boundingBoxes[0]["bounds"][0]-14), (boundingBoxes[0]["bounds"][1]-33),temperatureIcon);
     }
 
      hidden function setBattery(dc) {
