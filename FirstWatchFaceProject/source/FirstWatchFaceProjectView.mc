@@ -6,6 +6,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Complications;
+import Toybox.Weather;
 
 var font_hour;
 var font_min;
@@ -145,14 +146,14 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
     hidden function setTemperature(dc) {
 
-        var temperatureComplication = Complications.getComplication(
-           new Id(Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE)
-        );
-        
+        //var temperatureComplication = Complications.getComplication(
+        //   new Id(Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE)
+        //);
+        var currentTemp = Weather.getCurrentConditions().temperature;
         var tempLabel = View.findDrawableById("TempLabel") as Text;
         var tempValue = "--";
-        if (temperatureComplication.value != null) {
-            tempValue = (((temperatureComplication.value) * (9/5)) + 32).toString();
+        if (currentTemp != null) {
+            tempValue = (((currentTemp) * (9/5)) + 32).format("%.0f").toString();
         }
         tempLabel.setText(tempValue);
         dc.drawBitmap((boundingBoxes[0]["bounds"][0]-14), (boundingBoxes[0]["bounds"][1]-33),temperatureIcon);
@@ -215,27 +216,27 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
 
     function defineComplicationBoxes(dc) {
 
-        var radius = 40;
+        radius = 50;
 
         boundingBoxes = [
             {
                 "label" => "Temperature",
-                "bounds" => [dw/4,dh/4.5,radius],
+                "bounds" => [dw/3.75,dh/4.5,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE
             },
             {
                 "label" => "Battery",
-                "bounds" => [dw*3/4,dh/4.5,radius],
+                "bounds" => [dw*3/4.2,dh/4.5,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_BATTERY
             },
             {
                 "label" => "HeartRate",
-                "bounds" => [dw/4,dh*3/3.75,radius],
+                "bounds" => [dw/3.75,dh*3/3.8,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_HEART_RATE
             },
             {
                 "label" => "BodyBattery",
-                "bounds" => [dw*3/4,dh*3/3.75,radius],
+                "bounds" => [dw*3/4.2,dh*3/3.8,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_BODY_BATTERY
             }
         ];

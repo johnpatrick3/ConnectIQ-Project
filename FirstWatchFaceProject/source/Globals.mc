@@ -2,6 +2,7 @@ using Toybox.System;
 using Toybox.Complications;
 
 public var boundingBoxes = [];
+var radius;
 
 function checkPressedComplication(coord_values) {
     var xvalue = coord_values[0];
@@ -11,7 +12,7 @@ function checkPressedComplication(coord_values) {
         
         var currBounds = boundingBoxes[i]["bounds"];
 
-        if((currBounds[0] - xvalue)*(currBounds[0] - xvalue) + (currBounds[1] - yvalue)*(currBounds[1] - yvalue) <= (currBounds[2]*currBounds[2])) {
+        if((xvalue - currBounds[0])*(xvalue - currBounds[0]) + (yvalue - currBounds[1])*(yvalue - currBounds[1]) <= currBounds[2]*currBounds[2]) {
             return boundingBoxes[i]["ComplicationId"];
         }
 

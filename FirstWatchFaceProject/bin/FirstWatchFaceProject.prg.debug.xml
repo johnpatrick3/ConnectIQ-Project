@@ -7,16 +7,16 @@
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="6" lineNum="32" parent="globals" pc="268435485" symbol="getApp"/>
 <entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435501" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="8" lineNum="5" parent="globals/FirstWatchFaceProjectApp" pc="268435525" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="6" parent="globals" pc="268435544" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="7" parent="globals" pc="268435556" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="8" parent="globals" pc="268435566" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="10" parent="globals" pc="268435576" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="12" parent="globals" pc="268435606" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="14" parent="globals" pc="268435625" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="15" parent="globals" pc="268435693" symbol="checkPressedComplication"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="20" parent="globals" pc="268435727" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="7" parent="globals" pc="268435544" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="8" parent="globals" pc="268435556" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="9" parent="globals" pc="268435566" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="11" parent="globals" pc="268435576" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="13" parent="globals" pc="268435606" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="15" parent="globals" pc="268435625" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="16" parent="globals" pc="268435693" symbol="checkPressedComplication"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="9" lineNum="21" parent="globals" pc="268435727" symbol="checkPressedComplication"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="10" lineNum="10" parent="globals/WatchDelegate" pc="268435730" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="11" lineNum="16" parent="globals/FirstWatchFaceProjectView" pc="268435749" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="11" lineNum="17" parent="globals/FirstWatchFaceProjectView" pc="268435749" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="12" lineNum="12" parent="globals/FirstWatchFaceProjectApp" pc="268435768" symbol="onStart"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="13" lineNum="25" parent="globals/FirstWatchFaceProjectApp" pc="268435771" symbol="onSettingsChanged"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="13" lineNum="26" parent="globals/FirstWatchFaceProjectApp" pc="268435773" symbol="onSettingsChanged"/>
@@ -29,123 +29,124 @@
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="18" parent="globals/WatchDelegate" pc="268435861" symbol="onPress"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="20" parent="globals/WatchDelegate" pc="268435874" symbol="onPress"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="22" parent="globals/WatchDelegate" pc="268435889" symbol="onPress"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="23" parent="globals/WatchDelegate" pc="268435897" symbol="onPress"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="24" parent="globals/WatchDelegate" pc="268435927" symbol="onPress"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="25" parent="globals/WatchDelegate" pc="268435945" symbol="onPress"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="27" parent="globals/WatchDelegate" pc="268435951" symbol="onPress"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="24" parent="globals/WatchDelegate" pc="268435897" symbol="onPress"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="25" parent="globals/WatchDelegate" pc="268435927" symbol="onPress"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="26" parent="globals/WatchDelegate" pc="268435945" symbol="onPress"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="17" lineNum="28" parent="globals/WatchDelegate" pc="268435951" symbol="onPress"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="18" lineNum="12" parent="globals/WatchDelegate" pc="268435954" symbol="initialize"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="18" lineNum="13" parent="globals/WatchDelegate" pc="268435956" symbol="initialize"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="23" parent="globals/FirstWatchFaceProjectView" pc="268435975" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="24" parent="globals/FirstWatchFaceProjectView" pc="268435977" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="25" parent="globals/FirstWatchFaceProjectView" pc="268436018" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="26" parent="globals/FirstWatchFaceProjectView" pc="268436037" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="28" parent="globals/FirstWatchFaceProjectView" pc="268436056" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="29" parent="globals/FirstWatchFaceProjectView" pc="268436070" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="30" parent="globals/FirstWatchFaceProjectView" pc="268436117" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="31" parent="globals/FirstWatchFaceProjectView" pc="268436164" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="32" parent="globals/FirstWatchFaceProjectView" pc="268436211" symbol="onLayout"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="22" lineNum="216" parent="globals/FirstWatchFaceProjectView" pc="268436461" symbol="defineComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="22" lineNum="218" parent="globals/FirstWatchFaceProjectView" pc="268436465" symbol="defineComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="22" lineNum="220" parent="globals/FirstWatchFaceProjectView" pc="268436472" symbol="defineComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="108" parent="globals/FirstWatchFaceProjectView" pc="268436943" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="110" parent="globals/FirstWatchFaceProjectView" pc="268436947" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="111" parent="globals/FirstWatchFaceProjectView" pc="268436954" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="112" parent="globals/FirstWatchFaceProjectView" pc="268436977" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="113" parent="globals/FirstWatchFaceProjectView" pc="268436983" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="114" parent="globals/FirstWatchFaceProjectView" pc="268437007" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="115" parent="globals/FirstWatchFaceProjectView" pc="268437014" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="116" parent="globals/FirstWatchFaceProjectView" pc="268437027" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="117" parent="globals/FirstWatchFaceProjectView" pc="268437064" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="121" parent="globals/FirstWatchFaceProjectView" pc="268437083" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="122" parent="globals/FirstWatchFaceProjectView" pc="268437090" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="125" parent="globals/FirstWatchFaceProjectView" pc="268437097" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="24" parent="globals/FirstWatchFaceProjectView" pc="268435975" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="25" parent="globals/FirstWatchFaceProjectView" pc="268435977" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="26" parent="globals/FirstWatchFaceProjectView" pc="268436018" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="27" parent="globals/FirstWatchFaceProjectView" pc="268436037" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="29" parent="globals/FirstWatchFaceProjectView" pc="268436056" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="30" parent="globals/FirstWatchFaceProjectView" pc="268436070" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="31" parent="globals/FirstWatchFaceProjectView" pc="268436117" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="32" parent="globals/FirstWatchFaceProjectView" pc="268436164" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="21" lineNum="33" parent="globals/FirstWatchFaceProjectView" pc="268436211" symbol="onLayout"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="22" lineNum="217" parent="globals/FirstWatchFaceProjectView" pc="268436461" symbol="defineComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="22" lineNum="219" parent="globals/FirstWatchFaceProjectView" pc="268436463" symbol="defineComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="22" lineNum="221" parent="globals/FirstWatchFaceProjectView" pc="268436476" symbol="defineComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="109" parent="globals/FirstWatchFaceProjectView" pc="268436971" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="111" parent="globals/FirstWatchFaceProjectView" pc="268436975" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="112" parent="globals/FirstWatchFaceProjectView" pc="268436982" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="113" parent="globals/FirstWatchFaceProjectView" pc="268437005" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="114" parent="globals/FirstWatchFaceProjectView" pc="268437011" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="115" parent="globals/FirstWatchFaceProjectView" pc="268437035" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="116" parent="globals/FirstWatchFaceProjectView" pc="268437042" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="117" parent="globals/FirstWatchFaceProjectView" pc="268437055" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="118" parent="globals/FirstWatchFaceProjectView" pc="268437092" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="122" parent="globals/FirstWatchFaceProjectView" pc="268437111" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="123" parent="globals/FirstWatchFaceProjectView" pc="268437118" symbol="setHR"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="126" parent="globals/FirstWatchFaceProjectView" pc="268437125" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="127" parent="globals/FirstWatchFaceProjectView" pc="268437148" symbol="setHR"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="207" parent="globals/FirstWatchFaceProjectView" pc="268437233" symbol="drawComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="208" parent="globals/FirstWatchFaceProjectView" pc="268437237" symbol="drawComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="209" parent="globals/FirstWatchFaceProjectView" pc="268437259" symbol="drawComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="210" parent="globals/FirstWatchFaceProjectView" pc="268437276" symbol="drawComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="211" parent="globals/FirstWatchFaceProjectView" pc="268437306" symbol="drawComplicationBoxes"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="161" parent="globals/FirstWatchFaceProjectView" pc="268437401" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="163" parent="globals/FirstWatchFaceProjectView" pc="268437405" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="167" parent="globals/FirstWatchFaceProjectView" pc="268437453" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="127" parent="globals/FirstWatchFaceProjectView" pc="268437153" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="23" lineNum="128" parent="globals/FirstWatchFaceProjectView" pc="268437176" symbol="setHR"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="208" parent="globals/FirstWatchFaceProjectView" pc="268437261" symbol="drawComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="209" parent="globals/FirstWatchFaceProjectView" pc="268437265" symbol="drawComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="210" parent="globals/FirstWatchFaceProjectView" pc="268437287" symbol="drawComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="211" parent="globals/FirstWatchFaceProjectView" pc="268437304" symbol="drawComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="24" lineNum="212" parent="globals/FirstWatchFaceProjectView" pc="268437334" symbol="drawComplicationBoxes"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="162" parent="globals/FirstWatchFaceProjectView" pc="268437429" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="164" parent="globals/FirstWatchFaceProjectView" pc="268437433" symbol="setBattery"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="168" parent="globals/FirstWatchFaceProjectView" pc="268437481" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="169" parent="globals/FirstWatchFaceProjectView" pc="268437488" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="170" parent="globals/FirstWatchFaceProjectView" pc="268437501" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="172" parent="globals/FirstWatchFaceProjectView" pc="268437529" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="174" parent="globals/FirstWatchFaceProjectView" pc="268437543" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="176" parent="globals/FirstWatchFaceProjectView" pc="268437572" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="178" parent="globals/FirstWatchFaceProjectView" pc="268437665" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="179" parent="globals/FirstWatchFaceProjectView" pc="268437682" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="181" parent="globals/FirstWatchFaceProjectView" pc="268437775" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="182" parent="globals/FirstWatchFaceProjectView" pc="268437792" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="184" parent="globals/FirstWatchFaceProjectView" pc="268437885" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="185" parent="globals/FirstWatchFaceProjectView" pc="268437902" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="187" parent="globals/FirstWatchFaceProjectView" pc="268437995" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="188" parent="globals/FirstWatchFaceProjectView" pc="268438012" symbol="setBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="131" parent="globals/FirstWatchFaceProjectView" pc="268438106" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="133" parent="globals/FirstWatchFaceProjectView" pc="268438110" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="137" parent="globals/FirstWatchFaceProjectView" pc="268438158" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="169" parent="globals/FirstWatchFaceProjectView" pc="268437509" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="170" parent="globals/FirstWatchFaceProjectView" pc="268437516" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="171" parent="globals/FirstWatchFaceProjectView" pc="268437529" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="173" parent="globals/FirstWatchFaceProjectView" pc="268437557" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="175" parent="globals/FirstWatchFaceProjectView" pc="268437571" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="177" parent="globals/FirstWatchFaceProjectView" pc="268437600" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="179" parent="globals/FirstWatchFaceProjectView" pc="268437693" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="180" parent="globals/FirstWatchFaceProjectView" pc="268437710" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="182" parent="globals/FirstWatchFaceProjectView" pc="268437803" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="183" parent="globals/FirstWatchFaceProjectView" pc="268437820" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="185" parent="globals/FirstWatchFaceProjectView" pc="268437913" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="186" parent="globals/FirstWatchFaceProjectView" pc="268437930" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="188" parent="globals/FirstWatchFaceProjectView" pc="268438023" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="25" lineNum="189" parent="globals/FirstWatchFaceProjectView" pc="268438040" symbol="setBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="132" parent="globals/FirstWatchFaceProjectView" pc="268438134" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="134" parent="globals/FirstWatchFaceProjectView" pc="268438138" symbol="setBodyBattery"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="138" parent="globals/FirstWatchFaceProjectView" pc="268438186" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="139" parent="globals/FirstWatchFaceProjectView" pc="268438193" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="140" parent="globals/FirstWatchFaceProjectView" pc="268438206" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="142" parent="globals/FirstWatchFaceProjectView" pc="268438228" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="143" parent="globals/FirstWatchFaceProjectView" pc="268438242" symbol="setBodyBattery"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="193" parent="globals/FirstWatchFaceProjectView" pc="268438327" symbol="setDate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="195" parent="globals/FirstWatchFaceProjectView" pc="268438331" symbol="setDate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="199" parent="globals/FirstWatchFaceProjectView" pc="268438379" symbol="setDate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="139" parent="globals/FirstWatchFaceProjectView" pc="268438214" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="140" parent="globals/FirstWatchFaceProjectView" pc="268438221" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="141" parent="globals/FirstWatchFaceProjectView" pc="268438234" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="143" parent="globals/FirstWatchFaceProjectView" pc="268438256" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="26" lineNum="144" parent="globals/FirstWatchFaceProjectView" pc="268438270" symbol="setBodyBattery"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="194" parent="globals/FirstWatchFaceProjectView" pc="268438355" symbol="setDate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="196" parent="globals/FirstWatchFaceProjectView" pc="268438359" symbol="setDate"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="200" parent="globals/FirstWatchFaceProjectView" pc="268438407" symbol="setDate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="201" parent="globals/FirstWatchFaceProjectView" pc="268438414" symbol="setDate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="202" parent="globals/FirstWatchFaceProjectView" pc="268438427" symbol="setDate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="204" parent="globals/FirstWatchFaceProjectView" pc="268438449" symbol="setDate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="146" parent="globals/FirstWatchFaceProjectView" pc="268438464" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="148" parent="globals/FirstWatchFaceProjectView" pc="268438468" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="152" parent="globals/FirstWatchFaceProjectView" pc="268438516" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="153" parent="globals/FirstWatchFaceProjectView" pc="268438544" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="154" parent="globals/FirstWatchFaceProjectView" pc="268438551" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="155" parent="globals/FirstWatchFaceProjectView" pc="268438564" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="157" parent="globals/FirstWatchFaceProjectView" pc="268438598" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="158" parent="globals/FirstWatchFaceProjectView" pc="268438612" symbol="setTemperature"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="30" lineNum="18" parent="globals/FirstWatchFaceProjectView" pc="268438697" symbol="initialize"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="30" lineNum="19" parent="globals/FirstWatchFaceProjectView" pc="268438699" symbol="initialize"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="49" parent="globals/FirstWatchFaceProjectView" pc="268438718" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="52" parent="globals/FirstWatchFaceProjectView" pc="268438720" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="53" parent="globals/FirstWatchFaceProjectView" pc="268438732" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="56" parent="globals/FirstWatchFaceProjectView" pc="268438744" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="57" parent="globals/FirstWatchFaceProjectView" pc="268438768" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="58" parent="globals/FirstWatchFaceProjectView" pc="268438782" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="59" parent="globals/FirstWatchFaceProjectView" pc="268438796" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="60" parent="globals/FirstWatchFaceProjectView" pc="268438810" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="61" parent="globals/FirstWatchFaceProjectView" pc="268438824" symbol="onUpdate"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="81" parent="globals/FirstWatchFaceProjectView" pc="268438839" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="84" parent="globals/FirstWatchFaceProjectView" pc="268438843" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="85" parent="globals/FirstWatchFaceProjectView" pc="268438860" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="86" parent="globals/FirstWatchFaceProjectView" pc="268438870" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="87" parent="globals/FirstWatchFaceProjectView" pc="268438880" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="88" parent="globals/FirstWatchFaceProjectView" pc="268438905" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="89" parent="globals/FirstWatchFaceProjectView" pc="268438916" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="92" parent="globals/FirstWatchFaceProjectView" pc="268438932" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="94" parent="globals/FirstWatchFaceProjectView" pc="268438956" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="97" parent="globals/FirstWatchFaceProjectView" pc="268438977" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="98" parent="globals/FirstWatchFaceProjectView" pc="268438995" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="99" parent="globals/FirstWatchFaceProjectView" pc="268439013" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="100" parent="globals/FirstWatchFaceProjectView" pc="268439041" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="101" parent="globals/FirstWatchFaceProjectView" pc="268439069" symbol="setTime"/>
-<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="102" parent="globals/FirstWatchFaceProjectView" pc="268439083" symbol="setTime"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="29" parent="globals/Rez/Layouts" pc="268439098" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="30" parent="globals/Rez/Layouts" pc="268439110" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="31" parent="globals/Rez/Layouts" pc="268439151" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="32" parent="globals/Rez/Layouts" pc="268439192" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="33" parent="globals/Rez/Layouts" pc="268439233" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="34" parent="globals/Rez/Layouts" pc="268439338" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="36" parent="globals/Rez/Layouts" pc="268439390" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="38" parent="globals/Rez/Layouts" pc="268439499" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="40" parent="globals/Rez/Layouts" pc="268439608" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="42" parent="globals/Rez/Layouts" pc="268439717" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="44" parent="globals/Rez/Layouts" pc="268439826" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="46" parent="globals/Rez/Layouts" pc="268439935" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="48" parent="globals/Rez/Layouts" pc="268440044" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="50" parent="globals/Rez/Layouts" pc="268440153" symbol="WatchFace"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="201" parent="globals/FirstWatchFaceProjectView" pc="268438435" symbol="setDate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="202" parent="globals/FirstWatchFaceProjectView" pc="268438442" symbol="setDate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="203" parent="globals/FirstWatchFaceProjectView" pc="268438455" symbol="setDate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="28" lineNum="205" parent="globals/FirstWatchFaceProjectView" pc="268438477" symbol="setDate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="147" parent="globals/FirstWatchFaceProjectView" pc="268438492" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="152" parent="globals/FirstWatchFaceProjectView" pc="268438496" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="153" parent="globals/FirstWatchFaceProjectView" pc="268438519" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="154" parent="globals/FirstWatchFaceProjectView" pc="268438547" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="155" parent="globals/FirstWatchFaceProjectView" pc="268438554" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="156" parent="globals/FirstWatchFaceProjectView" pc="268438561" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="158" parent="globals/FirstWatchFaceProjectView" pc="268438603" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="29" lineNum="159" parent="globals/FirstWatchFaceProjectView" pc="268438617" symbol="setTemperature"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="30" lineNum="19" parent="globals/FirstWatchFaceProjectView" pc="268438702" symbol="initialize"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="30" lineNum="20" parent="globals/FirstWatchFaceProjectView" pc="268438704" symbol="initialize"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="50" parent="globals/FirstWatchFaceProjectView" pc="268438723" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="53" parent="globals/FirstWatchFaceProjectView" pc="268438725" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="54" parent="globals/FirstWatchFaceProjectView" pc="268438737" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="57" parent="globals/FirstWatchFaceProjectView" pc="268438749" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="58" parent="globals/FirstWatchFaceProjectView" pc="268438773" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="59" parent="globals/FirstWatchFaceProjectView" pc="268438787" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="60" parent="globals/FirstWatchFaceProjectView" pc="268438801" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="61" parent="globals/FirstWatchFaceProjectView" pc="268438815" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="32" lineNum="62" parent="globals/FirstWatchFaceProjectView" pc="268438829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="82" parent="globals/FirstWatchFaceProjectView" pc="268438844" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="85" parent="globals/FirstWatchFaceProjectView" pc="268438848" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="86" parent="globals/FirstWatchFaceProjectView" pc="268438865" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="87" parent="globals/FirstWatchFaceProjectView" pc="268438875" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="88" parent="globals/FirstWatchFaceProjectView" pc="268438885" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="89" parent="globals/FirstWatchFaceProjectView" pc="268438910" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="90" parent="globals/FirstWatchFaceProjectView" pc="268438921" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="93" parent="globals/FirstWatchFaceProjectView" pc="268438937" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="95" parent="globals/FirstWatchFaceProjectView" pc="268438961" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="98" parent="globals/FirstWatchFaceProjectView" pc="268438982" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="99" parent="globals/FirstWatchFaceProjectView" pc="268439000" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="100" parent="globals/FirstWatchFaceProjectView" pc="268439018" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="101" parent="globals/FirstWatchFaceProjectView" pc="268439046" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="102" parent="globals/FirstWatchFaceProjectView" pc="268439074" symbol="setTime"/>
+<entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="33" lineNum="103" parent="globals/FirstWatchFaceProjectView" pc="268439088" symbol="setTime"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="29" parent="globals/Rez/Layouts" pc="268439103" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="30" parent="globals/Rez/Layouts" pc="268439115" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="31" parent="globals/Rez/Layouts" pc="268439156" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="32" parent="globals/Rez/Layouts" pc="268439197" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="33" parent="globals/Rez/Layouts" pc="268439238" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="34" parent="globals/Rez/Layouts" pc="268439279" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="35" parent="globals/Rez/Layouts" pc="268439384" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="37" parent="globals/Rez/Layouts" pc="268439436" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="39" parent="globals/Rez/Layouts" pc="268439545" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="41" parent="globals/Rez/Layouts" pc="268439654" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="43" parent="globals/Rez/Layouts" pc="268439763" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="45" parent="globals/Rez/Layouts" pc="268439872" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="47" parent="globals/Rez/Layouts" pc="268439981" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="49" parent="globals/Rez/Layouts" pc="268440090" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="34" lineNum="51" parent="globals/Rez/Layouts" pc="268440199" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -153,6 +154,7 @@
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry field="true" id="38" symbol="superfun"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="8389759" symbol="radius"/>
 <entry field="true" id="18" symbol="heartIcon"/>
 <entry field="true" id="48" symbol="ColorRed"/>
 <entry field="true" id="51" symbol="MilitaryFormatTitle"/>
@@ -176,6 +178,7 @@
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
+<entry id="8391489" module="true" symbol="Weather"/>
 <entry id="7" object="true" symbol="FirstWatchFaceProjectApp"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
@@ -249,51 +252,51 @@
 <entry endPc="268435953" name="complicationId" stackId="3" startPc="268435861"/>
 <entry endPc="268435947" name="pressedComplication" stackId="4" startPc="268435897"/>
 <entry arg="true" endPc="268436460" name="dc" stackId="1" startPc="268435975"/>
-<entry arg="true" endPc="268436942" name="dc" stackId="1" startPc="268436461"/>
-<entry endPc="268436941" name="radius" stackId="2" startPc="268436465"/>
-<entry arg="true" endPc="268437232" name="dc" stackId="1" startPc="268436943"/>
-<entry endPc="268437231" name="hr" stackId="2" startPc="268436947"/>
-<entry endPc="268437231" name="newHr" stackId="3" startPc="268436947"/>
-<entry endPc="268437079" name="hrh" stackId="4" startPc="268436983"/>
-<entry endPc="268437076" name="hrs" stackId="5" startPc="268437014"/>
-<entry endPc="268437231" name="heartRateLabel" stackId="6" startPc="268436947"/>
-<entry arg="true" endPc="268437400" name="dc" stackId="1" startPc="268437233"/>
-<entry endPc="268437399" name="i" stackId="2" startPc="268437306"/>
-<entry arg="true" endPc="268438105" name="dc" stackId="1" startPc="268437401"/>
-<entry endPc="268438104" name="batteryComplication" stackId="2" startPc="268437405"/>
-<entry endPc="268438104" name="batteryLabel" stackId="3" startPc="268437405"/>
-<entry endPc="268438104" name="batteryValue" stackId="4" startPc="268437405"/>
-<entry arg="true" endPc="268438326" name="dc" stackId="1" startPc="268438106"/>
-<entry endPc="268438325" name="bodyBatteryComplication" stackId="2" startPc="268438110"/>
-<entry endPc="268438325" name="bodyBatteryLabel" stackId="3" startPc="268438110"/>
-<entry endPc="268438325" name="bodyBatteryValue" stackId="4" startPc="268438110"/>
-<entry endPc="268438462" name="dateComplication" stackId="1" startPc="268438331"/>
-<entry endPc="268438462" name="dateLabel" stackId="2" startPc="268438331"/>
-<entry endPc="268438462" name="dateValue" stackId="3" startPc="268438331"/>
-<entry arg="true" endPc="268438696" name="dc" stackId="1" startPc="268438464"/>
-<entry endPc="268438695" name="temperatureComplication" stackId="2" startPc="268438468"/>
-<entry endPc="268438695" name="tempLabel" stackId="3" startPc="268438468"/>
-<entry endPc="268438695" name="tempValue" stackId="4" startPc="268438468"/>
-<entry arg="true" endPc="268438838" name="dc" stackId="1" startPc="268438718"/>
-<entry endPc="268439096" name="clockTime" stackId="1" startPc="268438843"/>
-<entry endPc="268439096" name="hours" stackId="2" startPc="268438843"/>
-<entry endPc="268439096" name="minutes" stackId="3" startPc="268438843"/>
-<entry endPc="268439096" name="hourString" stackId="4" startPc="268438843"/>
-<entry endPc="268439096" name="minString" stackId="5" startPc="268438843"/>
-<entry endPc="268439096" name="hourLabel" stackId="6" startPc="268438843"/>
-<entry endPc="268439096" name="minuteLabel" stackId="7" startPc="268438843"/>
-<entry arg="true" endPc="268440239" name="dc" stackId="1" startPc="268439098"/>
-<entry endPc="268440239" name="local_Rez_Fonts_superfun" stackId="2" startPc="268439110"/>
-<entry endPc="268440239" name="local_Rez_Fonts_superfun_small" stackId="3" startPc="268439110"/>
-<entry endPc="268440239" name="local_Rez_Fonts_superfun_bigger" stackId="4" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_bitmap_MainBackground" stackId="5" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_TempLabel" stackId="6" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_BatteryLabel" stackId="7" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_HourLabel" stackId="8" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_MinLabel" stackId="9" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_Date" stackId="10" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_HeartRate" stackId="11" startPc="268439110"/>
-<entry endPc="268440239" name="rez_cmp_local_text_BodyBattery" stackId="12" startPc="268439110"/>
+<entry arg="true" endPc="268436970" name="dc" stackId="1" startPc="268436461"/>
+<entry arg="true" endPc="268437260" name="dc" stackId="1" startPc="268436971"/>
+<entry endPc="268437259" name="hr" stackId="2" startPc="268436975"/>
+<entry endPc="268437259" name="newHr" stackId="3" startPc="268436975"/>
+<entry endPc="268437107" name="hrh" stackId="4" startPc="268437011"/>
+<entry endPc="268437104" name="hrs" stackId="5" startPc="268437042"/>
+<entry endPc="268437259" name="heartRateLabel" stackId="6" startPc="268436975"/>
+<entry arg="true" endPc="268437428" name="dc" stackId="1" startPc="268437261"/>
+<entry endPc="268437427" name="i" stackId="2" startPc="268437334"/>
+<entry arg="true" endPc="268438133" name="dc" stackId="1" startPc="268437429"/>
+<entry endPc="268438132" name="batteryComplication" stackId="2" startPc="268437433"/>
+<entry endPc="268438132" name="batteryLabel" stackId="3" startPc="268437433"/>
+<entry endPc="268438132" name="batteryValue" stackId="4" startPc="268437433"/>
+<entry arg="true" endPc="268438354" name="dc" stackId="1" startPc="268438134"/>
+<entry endPc="268438353" name="bodyBatteryComplication" stackId="2" startPc="268438138"/>
+<entry endPc="268438353" name="bodyBatteryLabel" stackId="3" startPc="268438138"/>
+<entry endPc="268438353" name="bodyBatteryValue" stackId="4" startPc="268438138"/>
+<entry endPc="268438490" name="dateComplication" stackId="1" startPc="268438359"/>
+<entry endPc="268438490" name="dateLabel" stackId="2" startPc="268438359"/>
+<entry endPc="268438490" name="dateValue" stackId="3" startPc="268438359"/>
+<entry arg="true" endPc="268438701" name="dc" stackId="1" startPc="268438492"/>
+<entry endPc="268438700" name="currentTemp" stackId="2" startPc="268438496"/>
+<entry endPc="268438700" name="tempLabel" stackId="3" startPc="268438496"/>
+<entry endPc="268438700" name="tempValue" stackId="4" startPc="268438496"/>
+<entry arg="true" endPc="268438843" name="dc" stackId="1" startPc="268438723"/>
+<entry endPc="268439101" name="clockTime" stackId="1" startPc="268438848"/>
+<entry endPc="268439101" name="hours" stackId="2" startPc="268438848"/>
+<entry endPc="268439101" name="minutes" stackId="3" startPc="268438848"/>
+<entry endPc="268439101" name="hourString" stackId="4" startPc="268438848"/>
+<entry endPc="268439101" name="minString" stackId="5" startPc="268438848"/>
+<entry endPc="268439101" name="hourLabel" stackId="6" startPc="268438848"/>
+<entry endPc="268439101" name="minuteLabel" stackId="7" startPc="268438848"/>
+<entry arg="true" endPc="268440285" name="dc" stackId="1" startPc="268439103"/>
+<entry endPc="268440285" name="local_Rez_Fonts_superfun_small" stackId="2" startPc="268439115"/>
+<entry endPc="268440285" name="local_Rez_Fonts_superfun_bigger" stackId="3" startPc="268439115"/>
+<entry endPc="268440285" name="local_Rez_Fonts_superfun" stackId="4" startPc="268439115"/>
+<entry endPc="268440285" name="local_Rez_Fonts_superfun_medium" stackId="5" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_bitmap_MainBackground" stackId="6" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_TempLabel" stackId="7" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_BatteryLabel" stackId="8" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_HourLabel" stackId="9" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_MinLabel" stackId="10" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_Date" stackId="11" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_HeartRate" stackId="12" startPc="268439115"/>
+<entry endPc="268440285" name="rez_cmp_local_text_BodyBattery" stackId="13" startPc="268439115"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
@@ -323,14 +326,14 @@
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/Rez" offset="812" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/FirstWatchFaceProjectApp" offset="875" parentId="globals" symbolId="FirstWatchFaceProjectApp" type="class"/>
-<dataEntry label="globals/WatchDelegate" offset="954" parentId="globals" symbolId="WatchDelegate" type="class"/>
-<dataEntry label="globals/FirstWatchFaceProjectView" offset="1009" parentId="globals" symbolId="FirstWatchFaceProjectView" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="1168" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1279" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1318" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1381" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez" offset="820" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/FirstWatchFaceProjectApp" offset="883" parentId="globals" symbolId="FirstWatchFaceProjectApp" type="class"/>
+<dataEntry label="globals/WatchDelegate" offset="962" parentId="globals" symbolId="WatchDelegate" type="class"/>
+<dataEntry label="globals/FirstWatchFaceProjectView" offset="1017" parentId="globals" symbolId="FirstWatchFaceProjectView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1176" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1287" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1326" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1389" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435500" name="getApp" startPc="268435475">
@@ -398,50 +401,50 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436942" name="defineComplicationBoxes" parent="FirstWatchFaceProjectView" startPc="268436461">
+<functionEntry accessMode="public" endPc="268436970" name="defineComplicationBoxes" parent="FirstWatchFaceProjectView" startPc="268436461">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268437232" name="setHR" parent="FirstWatchFaceProjectView" startPc="268436943">
+<functionEntry accessMode="protected" endPc="268437260" name="setHR" parent="FirstWatchFaceProjectView" startPc="268436971">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268437400" name="drawComplicationBoxes" parent="FirstWatchFaceProjectView" startPc="268437233">
+<functionEntry accessMode="protected" endPc="268437428" name="drawComplicationBoxes" parent="FirstWatchFaceProjectView" startPc="268437261">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268438105" name="setBattery" parent="FirstWatchFaceProjectView" startPc="268437401">
+<functionEntry accessMode="protected" endPc="268438133" name="setBattery" parent="FirstWatchFaceProjectView" startPc="268437429">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268438326" name="setBodyBattery" parent="FirstWatchFaceProjectView" startPc="268438106">
+<functionEntry accessMode="protected" endPc="268438354" name="setBodyBattery" parent="FirstWatchFaceProjectView" startPc="268438134">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="FirstWatchFaceProjectView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268438463" name="setDate" parent="FirstWatchFaceProjectView" startPc="268438327">
+<functionEntry accessMode="protected" endPc="268438491" name="setDate" parent="FirstWatchFaceProjectView" startPc="268438355">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268438696" name="setTemperature" parent="FirstWatchFaceProjectView" startPc="268438464">
+<functionEntry accessMode="protected" endPc="268438701" name="setTemperature" parent="FirstWatchFaceProjectView" startPc="268438492">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438717" name="initialize" parent="FirstWatchFaceProjectView" startPc="268438697">
+<functionEntry accessMode="public" endPc="268438722" name="initialize" parent="FirstWatchFaceProjectView" startPc="268438702">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="FirstWatchFaceProjectView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438838" name="onUpdate" parent="FirstWatchFaceProjectView" startPc="268438718">
+<functionEntry accessMode="public" endPc="268438843" name="onUpdate" parent="FirstWatchFaceProjectView" startPc="268438723">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268439097" name="setTime" parent="FirstWatchFaceProjectView" startPc="268438839">
+<functionEntry accessMode="protected" endPc="268439102" name="setTime" parent="FirstWatchFaceProjectView" startPc="268438844">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440239" name="WatchFace" parent="Layouts" startPc="268439098">
+<functionEntry accessMode="public" endPc="268440285" name="WatchFace" parent="Layouts" startPc="268439103">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

@@ -20,6 +20,7 @@ class WatchDelegate extends Toybox.WatchUi.WatchFaceDelegate {
         var complicationId = checkPressedComplication(coords);
 
         if (complicationId != false) {
+            
             var pressedComplication = new Complications.Id(complicationId);
             Complications.exitTo(pressedComplication);
             return true;

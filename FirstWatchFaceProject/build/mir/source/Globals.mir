@@ -1,0 +1,113 @@
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc"; @line = 1; ]
+using Toybox.System;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc"; @line = 2; ]
+using Toybox.Complications;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc"; @line = 4; @position = 11; ]
+var boundingBoxes;
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc"; @line = 6; ]
+function checkPressedComplication(coord_values) {
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_6_48_23_0_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 7 4 ]
+    [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_6_48_23_0_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_6_48_23_0_stop" ]
+    %xvalue.1 = local;
+    %tmp.2 = lgetv %coord_values;
+    %tmp.3 = 0;
+    %tmp.4 = agetv %tmp.2 %tmp.3;
+    lputv %xvalue.1 %tmp.4;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 8 4 ]
+    [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_6_48_23_0_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_6_48_23_0_stop" ]
+    %yvalue.2 = local;
+    %tmp.6 = lgetv %coord_values;
+    %tmp.7 = 1;
+    %tmp.8 = agetv %tmp.6 %tmp.7;
+    lputv %yvalue.2 %tmp.8;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 10 4 ]
+    for @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_test @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_incr @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_init:
+    [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_begin" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_end" ]
+    %i.3 = local;
+    %tmp.9 = 0;
+    lputv %i.3 %tmp.9;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_test:
+    %tmp.11 = lgetv %i.3;
+    %tmp.13 = getv ? :boundingBoxes;
+    %tmp.14 = getv function %tmp.13 :size;
+    %tmp.15 = invoke %tmp.13 %tmp.14();
+    %tmp.16 = lt %tmp.11 %tmp.15;
+    bf %tmp.16 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_begin:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_45_18_4_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 12 8 ]
+    [ "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_45_18_4_start" "C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_45_18_4_stop" ]
+    %currBounds.4 = local;
+    %tmp.18 = getv ? :boundingBoxes;
+    %tmp.20 = lgetv %i.3;
+    %tmp.21 = agetv %tmp.18 %tmp.20;
+    %tmp.22 = "bounds";
+    %tmp.23 = agetv %tmp.21 %tmp.22;
+    lputv %currBounds.4 %tmp.23;
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 14 8 ]
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_8_16_8_if_stmt:
+    %tmp.25 = lgetv %currBounds.4;
+    %tmp.26 = 0;
+    %tmp.27 = agetv %tmp.25 %tmp.26;
+    %tmp.29 = lgetv %xvalue.1;
+    %tmp.30 = sub %tmp.27 %tmp.29;
+    %tmp.32 = lgetv %currBounds.4;
+    %tmp.33 = 0;
+    %tmp.34 = agetv %tmp.32 %tmp.33;
+    %tmp.36 = lgetv %xvalue.1;
+    %tmp.37 = sub %tmp.34 %tmp.36;
+    %tmp.38 = mul %tmp.30 %tmp.37;
+    %tmp.40 = lgetv %currBounds.4;
+    %tmp.41 = 1;
+    %tmp.42 = agetv %tmp.40 %tmp.41;
+    %tmp.44 = lgetv %yvalue.2;
+    %tmp.45 = sub %tmp.42 %tmp.44;
+    %tmp.47 = lgetv %currBounds.4;
+    %tmp.48 = 1;
+    %tmp.49 = agetv %tmp.47 %tmp.48;
+    %tmp.51 = lgetv %yvalue.2;
+    %tmp.52 = sub %tmp.49 %tmp.51;
+    %tmp.53 = mul %tmp.45 %tmp.52;
+    %tmp.54 = add %tmp.38 %tmp.53;
+    %tmp.56 = lgetv %currBounds.4;
+    %tmp.57 = 2;
+    %tmp.58 = agetv %tmp.56 %tmp.57;
+    %tmp.60 = lgetv %currBounds.4;
+    %tmp.61 = 2;
+    %tmp.62 = agetv %tmp.60 %tmp.61;
+    %tmp.63 = mul %tmp.58 %tmp.62;
+    %tmp.64 = lte %tmp.54 %tmp.63;
+    bf %tmp.64 @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_8_16_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_8_16_8_if_true:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_147_16_8_start:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 15 12 ]
+    %tmp.66 = getv ? :boundingBoxes;
+    %tmp.68 = lgetv %i.3;
+    %tmp.69 = agetv %tmp.66 %tmp.68;
+    %tmp.70 = "ComplicationId";
+    %tmp.71 = agetv %tmp.69 %tmp.70;
+    ret %tmp.71;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_147_16_8_stop:
+    goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_8_16_8_if_end;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_14_8_16_8_if_end:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_45_18_4_stop:
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_incr:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 10 ]
+    %tmp.74 = lgetv %i.3;
+    %tmp.75 = add %tmp.74 1;
+    lputv %i.3 %tmp.75;
+    goto @C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_test;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_10_4_18_4_for_end:
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 20 4 ]
+    %tmp.76 = false;
+    ret %tmp.76;
+C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_Globals_mc_6_48_23_0_stop:
+}
+[ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc"; @line = 1; ]
+<init> {
+[ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\Globals.mc" 4 11 ]
+    %tmp.77 = newa 0;
+    putv self :boundingBoxes %tmp.77;
+}
