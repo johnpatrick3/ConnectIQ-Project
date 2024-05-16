@@ -32,16 +32,12 @@ C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_sour
     function getInitialView() as [Views] or [Views, InputDelegates] {
 C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectApp_mc_20_68_22_4_start:
 [ "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectApp.mc" 21 8 ]
-        %tmp.1 = newa 2;
+        %tmp.1 = newa 1;
         %tmp.5 = getv ? :FirstWatchFaceProjectView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        %tmp.11 = getv ? :WatchDelegate;
-        %tmp.8 = newc %tmp.11 ();
-        %tmp.12 = dup %tmp.7;
-        %tmp.13 = aputv %tmp.12 1 %tmp.8;
-        ret %tmp.13;
+        ret %tmp.7;
 C_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_source_FirstWatchFaceProjectApp_mc_20_68_22_4_stop:
     }
     [ @file = "C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\source\FirstWatchFaceProjectApp.mc"; @line = 25; ]

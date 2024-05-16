@@ -13,19 +13,21 @@ class WatchDelegate extends Toybox.WatchUi.WatchFaceDelegate {
         WatchFaceDelegate.initialize();
     }
 
-    function onPress(clickEvent as WatchUi.ClickEvent) {
+    public function onPress(clickEvent as WatchUi.ClickEvent) {
 
         var coords = clickEvent.getCoordinates();
-
-        var complicationId = checkPressedComplication(coords);
-
-        if (complicationId != false) {
+        
+        var complicationIdPressed = checkPressedComplication(coords);
+        
+        if (complicationIdPressed[0] != false) {
             
-            var pressedComplication = new Complications.Id(complicationId);
-            Complications.exitTo(pressedComplication);
-            return true;
+            var pressedComplication = new Complications.Id(complicationIdPressed[1]);
+            if(pressedComplication) {
+                Complications.exitTo(pressedComplication);
+            }
+            return(true);
         }
-        return false;
+        return(false);
     }
 
 }

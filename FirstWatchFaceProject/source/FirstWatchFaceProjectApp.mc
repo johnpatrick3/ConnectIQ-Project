@@ -18,7 +18,7 @@ class FirstWatchFaceProjectApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new FirstWatchFaceProjectView() ];
+        return [ new FirstWatchFaceProjectView(), new WatchDelegate() ];
     }
 
     // New app settings have been received so trigger a UI update

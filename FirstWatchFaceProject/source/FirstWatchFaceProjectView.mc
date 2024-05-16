@@ -8,25 +8,27 @@ import Toybox.WatchUi;
 import Toybox.Complications;
 import Toybox.Weather;
 
-var font_hour;
-var font_min;
-var dw = 0;
-var dh = 0;
-var heartIcon, bodyBatteryIcon, temperatureIcon, batteryStatusIcon;
-
-class FirstWatchFaceProjectView extends WatchUi.WatchFace {
-
+public class FirstWatchFaceProjectView extends WatchUi.WatchFace {
+   
+    var font_hour;
+    var font_min;
+    var dw = 0;
+    var dh = 0;
+    var heartIcon, bodyBatteryIcon, temperatureIcon, batteryStatusIcon;
+    
     function initialize() {
         WatchFace.initialize();
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
+        
         setLayout(Rez.Layouts.WatchFace(dc));
         dw = dc.getWidth();
         dh = dc.getHeight();
         
         defineComplicationBoxes(dc);
+        
         heartIcon = WatchUi.loadResource(Rez.Drawables.heart);
         bodyBatteryIcon = WatchUi.loadResource(Rez.Drawables.body);
         temperatureIcon = WatchUi.loadResource(Rez.Drawables.temperature);
@@ -149,14 +151,21 @@ class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         //var temperatureComplication = Complications.getComplication(
         //   new Id(Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE)
         //);
-        var currentTemp = Weather.getCurrentConditions().temperature;
-        var tempLabel = View.findDrawableById("TempLabel") as Text;
-        var tempValue = "--";
-        if (currentTemp != null) {
-            tempValue = (((currentTemp) * (9/5)) + 32).format("%.0f").toString();
+        var currentTemp = "--";
+        if (Weather.getCurrentConditions() != null) {
+            currentTemp = Weather.getCurrentConditions().temperature;
+            if (currentTemp != null) {
+                currentTemp = ((currentTemp * 1.8) + 32).format("%.0f").toString();
+            } 
+            else {
+                currentTemp = "--";
+            }
         }
-        tempLabel.setText(tempValue);
+
+        var tempLabel = View.findDrawableById("TempLabel") as Text;
+        tempLabel.setText(currentTemp);
         dc.drawBitmap((boundingBoxes[0]["bounds"][0]-14), (boundingBoxes[0]["bounds"][1]-33),temperatureIcon);
+
     }
 
      hidden function setBattery(dc) {

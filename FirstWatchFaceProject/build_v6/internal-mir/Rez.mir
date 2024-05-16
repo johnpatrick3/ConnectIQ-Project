@@ -1,0 +1,2003 @@
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var Battery_100 as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var Battery_80 as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var Battery_60 as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        var Battery_40 as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var Battery_20 as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var heart as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var body as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var temperature as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var MainBackground as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 21; ]
+    module Fonts {
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 21; ]
+        <init> {
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; ]
+        var superfun as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; ]
+        var superfun_bigger as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; ]
+        var superfun_small as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; ]
+        var superfun_medium as ResourceId;
+    }
+    [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 28; ]
+    module Layouts {
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 28; ]
+        <init> {
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 29; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start:
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 30 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %local_Rez_Fonts_superfun_small.1 = local;
+            %tmp.1 = getm $.Toybox.WatchUi;
+            %tmp.2 = getv function %tmp.1 :loadResource;
+            %tmp.3 = getm $;
+            %tmp.4 = getv %tmp.3 :Rez;
+            %tmp.5 = getv %tmp.4 :Fonts;
+            %tmp.6 = getv %tmp.5 :superfun_small;
+            %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+            %tmp.8 = as %tmp.7 Graphics.FontReference;
+            lputv %local_Rez_Fonts_superfun_small.1 %tmp.8;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 31 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %local_Rez_Fonts_superfun_bigger.2 = local;
+            %tmp.9 = getm $.Toybox.WatchUi;
+            %tmp.10 = getv function %tmp.9 :loadResource;
+            %tmp.11 = getm $;
+            %tmp.12 = getv %tmp.11 :Rez;
+            %tmp.13 = getv %tmp.12 :Fonts;
+            %tmp.14 = getv %tmp.13 :superfun_bigger;
+            %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
+            %tmp.16 = as %tmp.15 Graphics.FontReference;
+            lputv %local_Rez_Fonts_superfun_bigger.2 %tmp.16;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 32 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %local_Rez_Fonts_superfun.3 = local;
+            %tmp.17 = getm $.Toybox.WatchUi;
+            %tmp.18 = getv function %tmp.17 :loadResource;
+            %tmp.19 = getm $;
+            %tmp.20 = getv %tmp.19 :Rez;
+            %tmp.21 = getv %tmp.20 :Fonts;
+            %tmp.22 = getv %tmp.21 :superfun;
+            %tmp.23 = invoke %tmp.17 %tmp.18(%tmp.22);
+            %tmp.24 = as %tmp.23 Graphics.FontReference;
+            lputv %local_Rez_Fonts_superfun.3 %tmp.24;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 33 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %local_Rez_Fonts_superfun_medium.4 = local;
+            %tmp.25 = getm $.Toybox.WatchUi;
+            %tmp.26 = getv function %tmp.25 :loadResource;
+            %tmp.27 = getm $;
+            %tmp.28 = getv %tmp.27 :Rez;
+            %tmp.29 = getv %tmp.28 :Fonts;
+            %tmp.30 = getv %tmp.29 :superfun_medium;
+            %tmp.31 = invoke %tmp.25 %tmp.26(%tmp.30);
+            %tmp.32 = as %tmp.31 Graphics.FontReference;
+            lputv %local_Rez_Fonts_superfun_medium.4 %tmp.32;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 34 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_bitmap_MainBackground.5 = local;
+            %tmp.35 = getm $.Toybox.WatchUi;
+            %tmp.36 = getv function ? %tmp.35 :Bitmap;
+            %tmp.37 = newd 4;
+            %tmp.39 = const :identifier;
+            %tmp.40 = "MainBackground";
+            %tmp.41 = dup %tmp.37;
+            %tmp.42 = aputv %tmp.41 %tmp.39 %tmp.40;
+            %tmp.44 = const :rezId;
+            %tmp.45 = getm $;
+            %tmp.46 = getv %tmp.45 :Rez;
+            %tmp.47 = getv %tmp.46 :Drawables;
+            %tmp.48 = getv %tmp.47 :MainBackground;
+            %tmp.49 = dup %tmp.42;
+            %tmp.50 = aputv %tmp.49 %tmp.44 %tmp.48;
+            %tmp.52 = const :locX;
+            %tmp.53 = getm $.Toybox.WatchUi;
+            %tmp.54 = getv %tmp.53 :LAYOUT_HALIGN_CENTER;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.58 = const :locY;
+            %tmp.59 = getm $.Toybox.WatchUi;
+            %tmp.60 = getv %tmp.59 :LAYOUT_VALIGN_CENTER;
+            %tmp.61 = dup %tmp.56;
+            %tmp.62 = aputv %tmp.61 %tmp.58 %tmp.60;
+            %tmp.33 = newc %tmp.36 (%tmp.62);
+            lputv %rez_cmp_local_bitmap_MainBackground.5 %tmp.33;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 35 12 ]
+            %tmp.63 = lgetv %rez_cmp_local_bitmap_MainBackground.5;
+            %tmp.64 = getv function %tmp.63 :setLocation;
+            %tmp.65 = 454;
+            %tmp.66 = lgetv %rez_cmp_local_bitmap_MainBackground.5;
+            %tmp.67 = getv %tmp.66 :width;
+            %tmp.68 = sub %tmp.65 %tmp.67;
+            %tmp.69 = 0.5;
+            %tmp.70 = mul %tmp.68 %tmp.69;
+            %tmp.71 = 454;
+            %tmp.72 = lgetv %rez_cmp_local_bitmap_MainBackground.5;
+            %tmp.73 = getv %tmp.72 :height;
+            %tmp.74 = sub %tmp.71 %tmp.73;
+            %tmp.75 = 0.5;
+            %tmp.76 = mul %tmp.74 %tmp.75;
+            invoke %tmp.63 %tmp.64(%tmp.70, %tmp.76);
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 37 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_TempLabel.6 = local;
+            %tmp.79 = getm $.Toybox.WatchUi;
+            %tmp.80 = getv function ? %tmp.79 :Text;
+            %tmp.81 = newd 6;
+            %tmp.83 = const :identifier;
+            %tmp.84 = "TempLabel";
+            %tmp.85 = dup %tmp.81;
+            %tmp.86 = aputv %tmp.85 %tmp.83 %tmp.84;
+            %tmp.88 = const :color;
+            %tmp.89 = getm $.Toybox.Graphics;
+            %tmp.90 = getv %tmp.89 :COLOR_BLACK;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :locX;
+            %tmp.95 = 454;
+            %tmp.96 = 26.8;
+            %tmp.97 = 100.0;
+            %tmp.98 = div %tmp.96 %tmp.97;
+            %tmp.99 = mul %tmp.95 %tmp.98;
+            %tmp.100 = dup %tmp.92;
+            %tmp.101 = aputv %tmp.100 %tmp.94 %tmp.99;
+            %tmp.103 = const :locY;
+            %tmp.104 = 454;
+            %tmp.105 = 22;
+            %tmp.106 = 100.0;
+            %tmp.107 = div %tmp.105 %tmp.106;
+            %tmp.108 = mul %tmp.104 %tmp.107;
+            %tmp.109 = dup %tmp.101;
+            %tmp.110 = aputv %tmp.109 %tmp.103 %tmp.108;
+            %tmp.112 = const :justification;
+            %tmp.113 = getm $.Toybox.Graphics;
+            %tmp.114 = getv %tmp.113 :TEXT_JUSTIFY_CENTER;
+            %tmp.115 = dup %tmp.110;
+            %tmp.116 = aputv %tmp.115 %tmp.112 %tmp.114;
+            %tmp.118 = const :font;
+            %tmp.120 = lgetv %local_Rez_Fonts_superfun_small.1;
+            %tmp.121 = dup %tmp.116;
+            %tmp.122 = aputv %tmp.121 %tmp.118 %tmp.120;
+            %tmp.77 = newc %tmp.80 (%tmp.122);
+            lputv %rez_cmp_local_text_TempLabel.6 %tmp.77;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 39 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_BatteryLabel.7 = local;
+            %tmp.125 = getm $.Toybox.WatchUi;
+            %tmp.126 = getv function ? %tmp.125 :Text;
+            %tmp.127 = newd 6;
+            %tmp.129 = const :identifier;
+            %tmp.130 = "BatteryLabel";
+            %tmp.131 = dup %tmp.127;
+            %tmp.132 = aputv %tmp.131 %tmp.129 %tmp.130;
+            %tmp.134 = const :color;
+            %tmp.135 = getm $.Toybox.Graphics;
+            %tmp.136 = getv %tmp.135 :COLOR_BLACK;
+            %tmp.137 = dup %tmp.132;
+            %tmp.138 = aputv %tmp.137 %tmp.134 %tmp.136;
+            %tmp.140 = const :locX;
+            %tmp.141 = 454;
+            %tmp.142 = 71.8;
+            %tmp.143 = 100.0;
+            %tmp.144 = div %tmp.142 %tmp.143;
+            %tmp.145 = mul %tmp.141 %tmp.144;
+            %tmp.146 = dup %tmp.138;
+            %tmp.147 = aputv %tmp.146 %tmp.140 %tmp.145;
+            %tmp.149 = const :locY;
+            %tmp.150 = 454;
+            %tmp.151 = 22;
+            %tmp.152 = 100.0;
+            %tmp.153 = div %tmp.151 %tmp.152;
+            %tmp.154 = mul %tmp.150 %tmp.153;
+            %tmp.155 = dup %tmp.147;
+            %tmp.156 = aputv %tmp.155 %tmp.149 %tmp.154;
+            %tmp.158 = const :justification;
+            %tmp.159 = getm $.Toybox.Graphics;
+            %tmp.160 = getv %tmp.159 :TEXT_JUSTIFY_CENTER;
+            %tmp.161 = dup %tmp.156;
+            %tmp.162 = aputv %tmp.161 %tmp.158 %tmp.160;
+            %tmp.164 = const :font;
+            %tmp.166 = lgetv %local_Rez_Fonts_superfun_small.1;
+            %tmp.167 = dup %tmp.162;
+            %tmp.168 = aputv %tmp.167 %tmp.164 %tmp.166;
+            %tmp.123 = newc %tmp.126 (%tmp.168);
+            lputv %rez_cmp_local_text_BatteryLabel.7 %tmp.123;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 41 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_HourLabel.8 = local;
+            %tmp.171 = getm $.Toybox.WatchUi;
+            %tmp.172 = getv function ? %tmp.171 :Text;
+            %tmp.173 = newd 6;
+            %tmp.175 = const :identifier;
+            %tmp.176 = "HourLabel";
+            %tmp.177 = dup %tmp.173;
+            %tmp.178 = aputv %tmp.177 %tmp.175 %tmp.176;
+            %tmp.180 = const :color;
+            %tmp.181 = getm $.Toybox.Graphics;
+            %tmp.182 = getv %tmp.181 :COLOR_WHITE;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.186 = const :locX;
+            %tmp.187 = 454;
+            %tmp.188 = 33;
+            %tmp.189 = 100.0;
+            %tmp.190 = div %tmp.188 %tmp.189;
+            %tmp.191 = mul %tmp.187 %tmp.190;
+            %tmp.192 = dup %tmp.184;
+            %tmp.193 = aputv %tmp.192 %tmp.186 %tmp.191;
+            %tmp.195 = const :locY;
+            %tmp.196 = 454;
+            %tmp.197 = 22.5;
+            %tmp.198 = 100.0;
+            %tmp.199 = div %tmp.197 %tmp.198;
+            %tmp.200 = mul %tmp.196 %tmp.199;
+            %tmp.201 = dup %tmp.193;
+            %tmp.202 = aputv %tmp.201 %tmp.195 %tmp.200;
+            %tmp.204 = const :justification;
+            %tmp.205 = getm $.Toybox.Graphics;
+            %tmp.206 = getv %tmp.205 :TEXT_JUSTIFY_CENTER;
+            %tmp.207 = dup %tmp.202;
+            %tmp.208 = aputv %tmp.207 %tmp.204 %tmp.206;
+            %tmp.210 = const :font;
+            %tmp.212 = lgetv %local_Rez_Fonts_superfun_bigger.2;
+            %tmp.213 = dup %tmp.208;
+            %tmp.214 = aputv %tmp.213 %tmp.210 %tmp.212;
+            %tmp.169 = newc %tmp.172 (%tmp.214);
+            lputv %rez_cmp_local_text_HourLabel.8 %tmp.169;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 43 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_MinLabel.9 = local;
+            %tmp.217 = getm $.Toybox.WatchUi;
+            %tmp.218 = getv function ? %tmp.217 :Text;
+            %tmp.219 = newd 6;
+            %tmp.221 = const :identifier;
+            %tmp.222 = "MinLabel";
+            %tmp.223 = dup %tmp.219;
+            %tmp.224 = aputv %tmp.223 %tmp.221 %tmp.222;
+            %tmp.226 = const :color;
+            %tmp.227 = getm $.Toybox.Graphics;
+            %tmp.228 = getv %tmp.227 :COLOR_BLUE;
+            %tmp.229 = dup %tmp.224;
+            %tmp.230 = aputv %tmp.229 %tmp.226 %tmp.228;
+            %tmp.232 = const :locX;
+            %tmp.233 = 454;
+            %tmp.234 = 74;
+            %tmp.235 = 100.0;
+            %tmp.236 = div %tmp.234 %tmp.235;
+            %tmp.237 = mul %tmp.233 %tmp.236;
+            %tmp.238 = dup %tmp.230;
+            %tmp.239 = aputv %tmp.238 %tmp.232 %tmp.237;
+            %tmp.241 = const :locY;
+            %tmp.242 = 454;
+            %tmp.243 = 31;
+            %tmp.244 = 100.0;
+            %tmp.245 = div %tmp.243 %tmp.244;
+            %tmp.246 = mul %tmp.242 %tmp.245;
+            %tmp.247 = dup %tmp.239;
+            %tmp.248 = aputv %tmp.247 %tmp.241 %tmp.246;
+            %tmp.250 = const :justification;
+            %tmp.251 = getm $.Toybox.Graphics;
+            %tmp.252 = getv %tmp.251 :TEXT_JUSTIFY_CENTER;
+            %tmp.253 = dup %tmp.248;
+            %tmp.254 = aputv %tmp.253 %tmp.250 %tmp.252;
+            %tmp.256 = const :font;
+            %tmp.258 = lgetv %local_Rez_Fonts_superfun_medium.4;
+            %tmp.259 = dup %tmp.254;
+            %tmp.260 = aputv %tmp.259 %tmp.256 %tmp.258;
+            %tmp.215 = newc %tmp.218 (%tmp.260);
+            lputv %rez_cmp_local_text_MinLabel.9 %tmp.215;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 45 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_Date.10 = local;
+            %tmp.263 = getm $.Toybox.WatchUi;
+            %tmp.264 = getv function ? %tmp.263 :Text;
+            %tmp.265 = newd 6;
+            %tmp.267 = const :identifier;
+            %tmp.268 = "Date";
+            %tmp.269 = dup %tmp.265;
+            %tmp.270 = aputv %tmp.269 %tmp.267 %tmp.268;
+            %tmp.272 = const :color;
+            %tmp.273 = getm $.Toybox.Graphics;
+            %tmp.274 = getv %tmp.273 :COLOR_WHITE;
+            %tmp.275 = dup %tmp.270;
+            %tmp.276 = aputv %tmp.275 %tmp.272 %tmp.274;
+            %tmp.278 = const :locX;
+            %tmp.279 = 454;
+            %tmp.280 = 74;
+            %tmp.281 = 100.0;
+            %tmp.282 = div %tmp.280 %tmp.281;
+            %tmp.283 = mul %tmp.279 %tmp.282;
+            %tmp.284 = dup %tmp.276;
+            %tmp.285 = aputv %tmp.284 %tmp.278 %tmp.283;
+            %tmp.287 = const :locY;
+            %tmp.288 = 454;
+            %tmp.289 = 54;
+            %tmp.290 = 100.0;
+            %tmp.291 = div %tmp.289 %tmp.290;
+            %tmp.292 = mul %tmp.288 %tmp.291;
+            %tmp.293 = dup %tmp.285;
+            %tmp.294 = aputv %tmp.293 %tmp.287 %tmp.292;
+            %tmp.296 = const :justification;
+            %tmp.297 = getm $.Toybox.Graphics;
+            %tmp.298 = getv %tmp.297 :TEXT_JUSTIFY_CENTER;
+            %tmp.299 = dup %tmp.294;
+            %tmp.300 = aputv %tmp.299 %tmp.296 %tmp.298;
+            %tmp.302 = const :font;
+            %tmp.304 = lgetv %local_Rez_Fonts_superfun.3;
+            %tmp.305 = dup %tmp.300;
+            %tmp.306 = aputv %tmp.305 %tmp.302 %tmp.304;
+            %tmp.261 = newc %tmp.264 (%tmp.306);
+            lputv %rez_cmp_local_text_Date.10 %tmp.261;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 47 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_HeartRate.11 = local;
+            %tmp.309 = getm $.Toybox.WatchUi;
+            %tmp.310 = getv function ? %tmp.309 :Text;
+            %tmp.311 = newd 6;
+            %tmp.313 = const :identifier;
+            %tmp.314 = "HeartRate";
+            %tmp.315 = dup %tmp.311;
+            %tmp.316 = aputv %tmp.315 %tmp.313 %tmp.314;
+            %tmp.318 = const :color;
+            %tmp.319 = getm $.Toybox.Graphics;
+            %tmp.320 = getv %tmp.319 :COLOR_BLACK;
+            %tmp.321 = dup %tmp.316;
+            %tmp.322 = aputv %tmp.321 %tmp.318 %tmp.320;
+            %tmp.324 = const :locX;
+            %tmp.325 = 454;
+            %tmp.326 = 26.8;
+            %tmp.327 = 100.0;
+            %tmp.328 = div %tmp.326 %tmp.327;
+            %tmp.329 = mul %tmp.325 %tmp.328;
+            %tmp.330 = dup %tmp.322;
+            %tmp.331 = aputv %tmp.330 %tmp.324 %tmp.329;
+            %tmp.333 = const :locY;
+            %tmp.334 = 454;
+            %tmp.335 = 79;
+            %tmp.336 = 100.0;
+            %tmp.337 = div %tmp.335 %tmp.336;
+            %tmp.338 = mul %tmp.334 %tmp.337;
+            %tmp.339 = dup %tmp.331;
+            %tmp.340 = aputv %tmp.339 %tmp.333 %tmp.338;
+            %tmp.342 = const :justification;
+            %tmp.343 = getm $.Toybox.Graphics;
+            %tmp.344 = getv %tmp.343 :TEXT_JUSTIFY_CENTER;
+            %tmp.345 = dup %tmp.340;
+            %tmp.346 = aputv %tmp.345 %tmp.342 %tmp.344;
+            %tmp.348 = const :font;
+            %tmp.350 = lgetv %local_Rez_Fonts_superfun_small.1;
+            %tmp.351 = dup %tmp.346;
+            %tmp.352 = aputv %tmp.351 %tmp.348 %tmp.350;
+            %tmp.307 = newc %tmp.310 (%tmp.352);
+            lputv %rez_cmp_local_text_HeartRate.11 %tmp.307;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 49 12 ]
+            [ "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_start" "c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop" ]
+            %rez_cmp_local_text_BodyBattery.12 = local;
+            %tmp.355 = getm $.Toybox.WatchUi;
+            %tmp.356 = getv function ? %tmp.355 :Text;
+            %tmp.357 = newd 6;
+            %tmp.359 = const :identifier;
+            %tmp.360 = "BodyBattery";
+            %tmp.361 = dup %tmp.357;
+            %tmp.362 = aputv %tmp.361 %tmp.359 %tmp.360;
+            %tmp.364 = const :color;
+            %tmp.365 = getm $.Toybox.Graphics;
+            %tmp.366 = getv %tmp.365 :COLOR_BLACK;
+            %tmp.367 = dup %tmp.362;
+            %tmp.368 = aputv %tmp.367 %tmp.364 %tmp.366;
+            %tmp.370 = const :locX;
+            %tmp.371 = 454;
+            %tmp.372 = 71.8;
+            %tmp.373 = 100.0;
+            %tmp.374 = div %tmp.372 %tmp.373;
+            %tmp.375 = mul %tmp.371 %tmp.374;
+            %tmp.376 = dup %tmp.368;
+            %tmp.377 = aputv %tmp.376 %tmp.370 %tmp.375;
+            %tmp.379 = const :locY;
+            %tmp.380 = 454;
+            %tmp.381 = 79;
+            %tmp.382 = 100.0;
+            %tmp.383 = div %tmp.381 %tmp.382;
+            %tmp.384 = mul %tmp.380 %tmp.383;
+            %tmp.385 = dup %tmp.377;
+            %tmp.386 = aputv %tmp.385 %tmp.379 %tmp.384;
+            %tmp.388 = const :justification;
+            %tmp.389 = getm $.Toybox.Graphics;
+            %tmp.390 = getv %tmp.389 :TEXT_JUSTIFY_CENTER;
+            %tmp.391 = dup %tmp.386;
+            %tmp.392 = aputv %tmp.391 %tmp.388 %tmp.390;
+            %tmp.394 = const :font;
+            %tmp.396 = lgetv %local_Rez_Fonts_superfun_small.1;
+            %tmp.397 = dup %tmp.392;
+            %tmp.398 = aputv %tmp.397 %tmp.394 %tmp.396;
+            %tmp.353 = newc %tmp.356 (%tmp.398);
+            lputv %rez_cmp_local_text_BodyBattery.12 %tmp.353;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 51 12 ]
+            %tmp.399 = newa 8 Array<WatchUi.Drawable>;
+            %tmp.401 = lgetv %rez_cmp_local_bitmap_MainBackground.5;
+            %tmp.402 = dup %tmp.399;
+            %tmp.403 = aputv %tmp.402 0 %tmp.401;
+            %tmp.405 = lgetv %rez_cmp_local_text_TempLabel.6;
+            %tmp.406 = dup %tmp.403;
+            %tmp.407 = aputv %tmp.406 1 %tmp.405;
+            %tmp.409 = lgetv %rez_cmp_local_text_BatteryLabel.7;
+            %tmp.410 = dup %tmp.407;
+            %tmp.411 = aputv %tmp.410 2 %tmp.409;
+            %tmp.413 = lgetv %rez_cmp_local_text_HourLabel.8;
+            %tmp.414 = dup %tmp.411;
+            %tmp.415 = aputv %tmp.414 3 %tmp.413;
+            %tmp.417 = lgetv %rez_cmp_local_text_MinLabel.9;
+            %tmp.418 = dup %tmp.415;
+            %tmp.419 = aputv %tmp.418 4 %tmp.417;
+            %tmp.421 = lgetv %rez_cmp_local_text_Date.10;
+            %tmp.422 = dup %tmp.419;
+            %tmp.423 = aputv %tmp.422 5 %tmp.421;
+            %tmp.425 = lgetv %rez_cmp_local_text_HeartRate.11;
+            %tmp.426 = dup %tmp.423;
+            %tmp.427 = aputv %tmp.426 6 %tmp.425;
+            %tmp.429 = lgetv %rez_cmp_local_text_BodyBattery.12;
+            %tmp.430 = dup %tmp.427;
+            %tmp.431 = aputv %tmp.430 7 %tmp.429;
+            ret %tmp.431;
+c_Users_johnp_OneDrive_Documents_First_Garmin_Project_FirstWatchFaceProject_build_v6_gen_006_B4315_00_source_Rez_mcgen_29_73_52_8_stop:
+        }
+    }
+    [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 55; ]
+    module Strings {
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 55; ]
+        <init> {
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
+        var ColorBlue as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
+        var ColorRed as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 59; @position = 27; initialized = true; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 60; @position = 27; initialized = true; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 61; @position = 27; initialized = true; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; ]
+        var ColorBlack as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; ]
+        var ColorWhite as ResourceId;
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 68; ]
+    module Styles {
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 68; ]
+        <init> {
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 69; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 69; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 70; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 73; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 74; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 75; @position = 18; ]
+            const height as Number = 172;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 78; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 78; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 79; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 80; @position = 18; ]
+            const y as Number = 284;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 83; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 83; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 84; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 87; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 87; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 88; @position = 18; ]
+            const x as Number = 76;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 89; @position = 18; ]
+            const y as Number = 70;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 92; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 93; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 94; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 95; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 96; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 97; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 100; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 100; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 101; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__question.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 102; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 103; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 104; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 105; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 108; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 109; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 112; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 113 18 ]
+                %tmp.432 = getm $.Toybox.Graphics;
+                %tmp.433 = getv %tmp.432 :TEXT_JUSTIFY_CENTER;
+                %tmp.434 = getm $.Toybox.Graphics;
+                %tmp.435 = getv %tmp.434 :TEXT_JUSTIFY_VCENTER;
+                %tmp.436 = bitor %tmp.433 %tmp.435;
+                putv self :justification %tmp.436;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 114 18 ]
+                %tmp.437 = getm $.Toybox.Graphics;
+                %tmp.438 = getv %tmp.437 :FONT_TINY;
+                putv self :font %tmp.438;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 114; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 117; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 119; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 120; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 121; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 122; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 125; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 126; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 127; @position = 18; ]
+            const height as Number = 109;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 130; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 130; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 132 18 ]
+                %tmp.439 = getm $.Toybox.Graphics;
+                %tmp.440 = getv %tmp.439 :COLOR_TRANSPARENT;
+                putv self :background %tmp.440;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 131; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 132; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 135; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 136; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 137; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 138; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 141; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 142; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 143; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 144; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 147; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            const width as Number = 287;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const height as Number = 97;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 152; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 152; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 153 18 ]
+                %tmp.441 = getm $.Toybox.Graphics;
+                %tmp.442 = getv %tmp.441 :TEXT_JUSTIFY_CENTER;
+                %tmp.443 = getm $.Toybox.Graphics;
+                %tmp.444 = getv %tmp.443 :TEXT_JUSTIFY_VCENTER;
+                %tmp.445 = bitor %tmp.442 %tmp.444;
+                putv self :justification %tmp.445;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 154 18 ]
+                %tmp.446 = getm $.Toybox.Graphics;
+                %tmp.447 = getv %tmp.446 :FONT_TINY;
+                putv self :font %tmp.447;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 153; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 157; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 158; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 159; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 162; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 163; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 164; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 165; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 168; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const scaleX as Number = 65;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 170; @position = 18; ]
+            const scaleY as Number = 65;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 171; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 174; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 174; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 175 18 ]
+                %tmp.448 = getm $.Toybox.WatchUi;
+                %tmp.449 = getv %tmp.448 :KEY_ENTER;
+                putv self :button %tmp.449;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 175; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 178; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 178; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 179 18 ]
+                %tmp.450 = getm $.Toybox.Graphics;
+                %tmp.451 = getv %tmp.450 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.451;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 180 18 ]
+                %tmp.452 = getm $.Toybox.Graphics;
+                %tmp.453 = getv %tmp.452 :FONT_XTINY;
+                putv self :font %tmp.453;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 179; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 180; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 183; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 184; @position = 18; ]
+            const x as Number = 70;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 185; @position = 18; ]
+            const y as Number = 104;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 188; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 189; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 190; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 191; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 194; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 194; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 195; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 196; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 199; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 200; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 202; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 205; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 206; @position = 18; ]
+            const x as Number = 379;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 207; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 210; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 211; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 212; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 213; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 216; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 217; @position = 18; ]
+            const x as Number = 3;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 218; @position = 18; ]
+            const y as Number = 184;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 221; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 222; @position = 18; ]
+            const width as Number = 302;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 223; @position = 18; ]
+            const height as Number = 315;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 226; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 228; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 229; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 232; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 232; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 233; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 234; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 237; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 237; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 238 18 ]
+                %tmp.454 = getm $.Toybox.WatchUi;
+                %tmp.455 = getv %tmp.454 :KEY_DOWN;
+                putv self :button %tmp.455;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 241; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 244; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 247; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 247; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 248 18 ]
+                %tmp.456 = getm $.Toybox.WatchUi;
+                %tmp.457 = getv %tmp.456 :KEY_ENTER;
+                putv self :button %tmp.457;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 248; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 251; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 251; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 252; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__save.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 253; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 254; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 255; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 259; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 261 18 ]
+                %tmp.458 = getm $.Toybox.Graphics;
+                %tmp.459 = getv %tmp.458 :COLOR_TRANSPARENT;
+                putv self :background %tmp.459;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 261; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 264; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 268; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 269; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 270; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 271; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 272; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 273; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 276; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 276; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 278 18 ]
+                %tmp.460 = getm $.Toybox.Graphics;
+                %tmp.461 = getv %tmp.460 :COLOR_TRANSPARENT;
+                putv self :background %tmp.461;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 277; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 281; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 284; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 287; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 287; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 288; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 289; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 292; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 293; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 294; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 295; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 298; ]
+        module system_size__screen {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 298; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 299; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 300; @position = 18; ]
+            const height as Number = 454;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 303; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 304; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 305; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 306; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 309; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 309; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 310; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 311; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 314; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 315; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 316; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 317; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 320; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 320; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            const x as Number = 379;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 325; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 325; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 327 18 ]
+                %tmp.462 = getm $.Toybox.Graphics;
+                %tmp.463 = getv %tmp.462 :COLOR_TRANSPARENT;
+                putv self :background %tmp.463;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 326; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 327; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 330; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 330; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 331 18 ]
+                %tmp.464 = getm $.Toybox.WatchUi;
+                %tmp.465 = getv %tmp.464 :KEY_ESC;
+                putv self :button %tmp.465;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 331; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 334; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 334; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 335; @position = 18; ]
+            const x as Number = 76;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 336; @position = 18; ]
+            const y as Number = 131;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 339; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 339; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 340; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 341; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 342; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 343; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 344; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 347; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 347; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 349 18 ]
+                %tmp.466 = getm $.Toybox.Graphics;
+                %tmp.467 = getv %tmp.466 :COLOR_TRANSPARENT;
+                putv self :background %tmp.467;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 348; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 352; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 353; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 358; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 359; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 361; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 362; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 363; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 366; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 367; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 368; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 369; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 372; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 372; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 373; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__search.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 374; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 377; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 380; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 382; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 383; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 386; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 387; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 388; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 392; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 392; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 393; @position = 18; ]
+            const x as Number = 369;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 394; @position = 18; ]
+            const y as Number = 283;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 397; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 397; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 398; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 399; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 403; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 403; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 405 18 ]
+                %tmp.468 = getm $.Toybox.Graphics;
+                %tmp.469 = getv %tmp.468 :COLOR_TRANSPARENT;
+                putv self :background %tmp.469;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 404; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 405; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 408; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 411; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 414; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 414; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 416 18 ]
+                %tmp.470 = getm $.Toybox.Graphics;
+                %tmp.471 = getv %tmp.470 :COLOR_TRANSPARENT;
+                putv self :background %tmp.471;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 416; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 419; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 419; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 420; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 421; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 422; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 425; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 426; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 428; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 431; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 431; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const x as Number = 83;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 433; @position = 18; ]
+            const y as Number = 34;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 436; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 436; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 440; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 442 18 ]
+                %tmp.472 = getm $.Toybox.Graphics;
+                %tmp.473 = getv %tmp.472 :COLOR_TRANSPARENT;
+                putv self :background %tmp.473;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 442; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 445; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 447; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 448; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 451; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 452; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 453; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 454; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 457; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 457; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 459; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 460; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 463; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 466; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 467; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 468; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 471; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 472; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 473; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 474; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 477; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 478; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__about.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 479; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 480; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 481; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 482; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 485; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 486; @position = 18; ]
+            const scaleX as Number = 45;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 487; @position = 18; ]
+            const scaleY as Number = 45;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 488; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 491; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 492; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 495; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 495; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 496; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 497; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 498; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 501; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 503; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 504; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 507; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 507; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 508; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 511; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 512; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 515; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 516; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const y as Number = 284;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 520; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 521; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 523; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 526; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 527; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 528; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 531; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 533; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 534; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 537; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 537; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 539; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 540; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 543; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 544; @position = 18; ]
+            const scaleX as Number = 55;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 545; @position = 18; ]
+            const scaleY as Number = 55;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 546; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 549; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 549; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 550; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 551; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 552; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 555; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 559; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 560; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 561; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 562; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 563; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 567; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 567; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 568; @position = 18; ]
+            const width as Number = 302;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 569; @position = 18; ]
+            const height as Number = 254;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 572; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 572; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 573; @position = 18; ]
+            const x as Number = 379;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 574; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 577; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 577; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 579 18 ]
+                %tmp.474 = getm $.Toybox.Graphics;
+                %tmp.475 = getv %tmp.474 :COLOR_TRANSPARENT;
+                putv self :background %tmp.475;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 578; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 579; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 582; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 583; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__check.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 585; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 586; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 587; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 590; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 590; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 591 18 ]
+                %tmp.476 = getm $.Toybox.WatchUi;
+                %tmp.477 = getv %tmp.476 :KEY_DOWN;
+                putv self :button %tmp.477;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 591; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 594; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 594; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 596; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 597; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 598; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 599; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 602; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 602; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 603; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 606; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 612; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 612; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 613; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 615; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 617; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 620; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 621; @position = 18; ]
+            const x as Number = 372;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 622; @position = 18; ]
+            const y as Number = 286;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 625; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 626; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 627; @position = 18; ]
+            const y as Number = 284;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 630; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 630; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 631; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 632; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 633; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 636; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 637; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 640; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 640; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 641; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 642; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 643; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 646; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 646; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 647; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 648; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 649; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 652; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 652; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 653; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 654; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 655; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 658; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 658; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 659; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 660; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 661; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 662; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 663; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 666; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 666; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 667; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 668; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 669; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 672; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 672; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 673; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 674; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 675; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 676; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 677; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 680; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 680; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 681; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 682; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 683; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 684; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 685; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 688; ]
+        module device_info {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 688; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 690 18 ]
+                %tmp.478 = getm $.Toybox.System;
+                %tmp.479 = getv %tmp.478 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.479;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 689; @position = 18; ]
+            const screenWidth as Number = 454;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 690; @position = 18; ]
+            const screenShape;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 691; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 692; @position = 18; ]
+            const screenHeight as Number = 454;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 693; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 694; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 697; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 697; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 698; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 699; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 700; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 703; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 703; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 704 18 ]
+                %tmp.480 = getm $.Toybox.Graphics;
+                %tmp.481 = getv %tmp.480 :TEXT_JUSTIFY_CENTER;
+                %tmp.482 = getm $.Toybox.Graphics;
+                %tmp.483 = getv %tmp.482 :TEXT_JUSTIFY_VCENTER;
+                %tmp.484 = bitor %tmp.481 %tmp.483;
+                putv self :justification %tmp.484;
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 705 18 ]
+                %tmp.485 = getm $.Toybox.Graphics;
+                %tmp.486 = getv %tmp.485 :FONT_XTINY;
+                putv self :font %tmp.486;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 704; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 705; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 708; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 708; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 709; @position = 18; ]
+            const scaleX as Float = 0.13;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 710; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 713; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 713; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 714; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 715; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 716; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 717; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 718; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 721; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 721; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 722; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 723; @position = 18; ]
+            const y as Number = 46;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 724; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 725; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 728; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 728; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 729; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 732; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 732; ]
+            <init> {
+[ "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen" 734 18 ]
+                %tmp.487 = getm $.Toybox.Graphics;
+                %tmp.488 = getv %tmp.487 :COLOR_TRANSPARENT;
+                putv self :background %tmp.488;
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 733; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 734; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 737; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 737; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 738; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 739; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 740; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 743; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 743; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 744; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 745; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 746; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 749; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 749; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 750; @position = 18; ]
+            const width as Number = 316;
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 751; @position = 18; ]
+            const height as Number = 246;
+        }
+        [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 754; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 754; ]
+            <init> {
+            }
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 755; @position = 18; ]
+            const filename as String = "C:\\Users\\johnp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr965\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 756; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 757; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "c:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\build_v6\gen\006-B4315-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}
