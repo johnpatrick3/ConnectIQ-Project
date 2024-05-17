@@ -3,4 +3,5 @@
     <font id="superfun_bigger" filename="superfuntime_bigger.fnt" antialias="true" filter="0123456789" />
     <font id="superfun_small" filename="superfuntime_small.fnt" antialias="true" />
     <font id="superfun_medium" filename="superfuntime_medium.fnt" antialias="true" />
+    <font id="superfun_bigger_epix" filename="superfuntime_bigger_epix.fnt" antialias="true" filter="0123456789" />
 </fonts>

@@ -5,7 +5,7 @@
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="4" lineNum="4" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="6" lineNum="31" parent="globals" pc="268435475" symbol="getApp"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="6" lineNum="32" parent="globals" pc="268435485" symbol="getApp"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435501" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435501" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectApp.mc" id="8" lineNum="5" parent="globals/FirstWatchFaceProjectApp" pc="268435525" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectView.mc" id="9" lineNum="11" parent="globals/FirstWatchFaceProjectView" pc="268435544" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\Globals.mc" id="10" lineNum="7" parent="globals" pc="268435563" symbol="checkPressedComplication"/>
@@ -136,21 +136,21 @@
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="32" lineNum="30" parent="globals/WatchDelegate" pc="268439213" symbol="onPress"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="33" lineNum="12" parent="globals/WatchDelegate" pc="268439216" symbol="initialize"/>
 <entry filename="C:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\source\\FirstWatchFaceProjectWatchDelegate.mc" id="33" lineNum="13" parent="globals/WatchDelegate" pc="268439218" symbol="initialize"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="30" parent="globals/Rez/Layouts" pc="268439237" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="31" parent="globals/Rez/Layouts" pc="268439249" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="32" parent="globals/Rez/Layouts" pc="268439290" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="33" parent="globals/Rez/Layouts" pc="268439331" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="34" parent="globals/Rez/Layouts" pc="268439372" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="35" parent="globals/Rez/Layouts" pc="268439413" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="36" parent="globals/Rez/Layouts" pc="268439518" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="38" parent="globals/Rez/Layouts" pc="268439570" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="40" parent="globals/Rez/Layouts" pc="268439679" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="42" parent="globals/Rez/Layouts" pc="268439788" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="44" parent="globals/Rez/Layouts" pc="268439897" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="46" parent="globals/Rez/Layouts" pc="268440006" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="48" parent="globals/Rez/Layouts" pc="268440115" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="50" parent="globals/Rez/Layouts" pc="268440224" symbol="WatchFace"/>
-<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\bin\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="52" parent="globals/Rez/Layouts" pc="268440333" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="30" parent="globals/Rez/Layouts" pc="268439237" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="31" parent="globals/Rez/Layouts" pc="268439249" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="32" parent="globals/Rez/Layouts" pc="268439290" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="33" parent="globals/Rez/Layouts" pc="268439331" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="34" parent="globals/Rez/Layouts" pc="268439372" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="35" parent="globals/Rez/Layouts" pc="268439413" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="36" parent="globals/Rez/Layouts" pc="268439518" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="38" parent="globals/Rez/Layouts" pc="268439570" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="40" parent="globals/Rez/Layouts" pc="268439679" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="42" parent="globals/Rez/Layouts" pc="268439788" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="44" parent="globals/Rez/Layouts" pc="268439897" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="46" parent="globals/Rez/Layouts" pc="268440006" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="48" parent="globals/Rez/Layouts" pc="268440115" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="50" parent="globals/Rez/Layouts" pc="268440224" symbol="WatchFace"/>
+<entry filename="c:\\Users\\johnp\\OneDrive\\Documents\\First Garmin Project\\FirstWatchFaceProject\\epix_pro_42mm_build\\gen\\006-B4312-00\\source\\Rez.mcgen" id="34" lineNum="52" parent="globals/Rez/Layouts" pc="268440333" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -331,14 +331,14 @@
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/Rez" offset="756" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/FirstWatchFaceProjectApp" offset="819" parentId="globals" symbolId="FirstWatchFaceProjectApp" type="class"/>
-<dataEntry label="globals/FirstWatchFaceProjectView" offset="898" parentId="globals" symbolId="FirstWatchFaceProjectView" type="class"/>
-<dataEntry label="globals/WatchDelegate" offset="1121" parentId="globals" symbolId="WatchDelegate" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="1176" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1287" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1326" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1397" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez" offset="772" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/FirstWatchFaceProjectApp" offset="835" parentId="globals" symbolId="FirstWatchFaceProjectApp" type="class"/>
+<dataEntry label="globals/FirstWatchFaceProjectView" offset="914" parentId="globals" symbolId="FirstWatchFaceProjectView" type="class"/>
+<dataEntry label="globals/WatchDelegate" offset="1137" parentId="globals" symbolId="WatchDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1192" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1303" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1342" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1413" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435500" name="getApp" startPc="268435475">

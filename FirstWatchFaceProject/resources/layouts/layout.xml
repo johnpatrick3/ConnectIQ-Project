@@ -3,15 +3,15 @@
     <bitmap id="MainBackground" x="center" y="center" filename="C:\Users\johnp\OneDrive\Documents\First Garmin Project\FirstWatchFaceProject\resources\drawables\abstract.jpg"/>
     
     <!--Top 2 Data Points-->
-    <label id="TempLabel" x="26.8%" y="22%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+    <label id="TempLabel" x="28.7%" y="22%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
     <label id="BatteryLabel" x="71.8%" y="22%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
     
     <!--Hour and Minute Value-->
-    <label id="HourLabel" x="33%" y="22.5%" font="@Fonts.superfun_bigger" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
-    <label id="MinLabel" x="74%" y="31%" font = "@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id = "Date" x="74%" y="54%" font = "@Fonts.superfun" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="HourLabel" x="35%" y="29%" font="@Fonts.superfun_bigger_epix" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="MinLabel" x="70%" y="30%" font = "@Fonts.superfun_medium" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id = "Date" x="70%" y="53%" font = "@Fonts.superfun" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     
     <!--Bottom 2 Data Points-->
-    <label id="HeartRate" x="26.8%" y="79%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+    <label id="HeartRate" x="28.7%" y="79%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
     <label id="BodyBattery" x="71.8%" y="79%" font="@Fonts.superfun_small" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
 </layout>

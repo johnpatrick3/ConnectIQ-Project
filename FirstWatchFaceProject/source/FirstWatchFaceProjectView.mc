@@ -230,7 +230,7 @@ public class FirstWatchFaceProjectView extends WatchUi.WatchFace {
         boundingBoxes = [
             {
                 "label" => "Temperature",
-                "bounds" => [dw/3.75,dh/4.5,radius],
+                "bounds" => [dw/3.5,dh/4.5,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_CURRENT_TEMPERATURE
             },
             {
@@ -240,7 +240,7 @@ public class FirstWatchFaceProjectView extends WatchUi.WatchFace {
             },
             {
                 "label" => "HeartRate",
-                "bounds" => [dw/3.75,dh*3/3.8,radius],
+                "bounds" => [dw/3.5,dh*3/3.8,radius],
                 "ComplicationId" => Complications.COMPLICATION_TYPE_HEART_RATE
             },
             {
