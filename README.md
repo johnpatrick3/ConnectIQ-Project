@@ -15,5 +15,6 @@ Major Features:
 
 Finished Product:
 
-![image](https://github.com/johnpatrick3/ConnectIQ-Project/assets/54911567/d203615c-e4b0-4348-b55b-197628885045)
+
+![image](https://github.com/johnpatrick3/ConnectIQ-Project/assets/54911567/fe6c2254-415e-44cf-a859-71b75c238555)
 
